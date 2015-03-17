@@ -1,0 +1,10 @@
+Output: Component Cross Reference Report
+Type  : ReportComponents
+From  : Variant [[No Variations]] of Project [n-MAX.PrjPcb]
+   Generated File[Pick_Place.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 14:04:53 On 17/03/2015

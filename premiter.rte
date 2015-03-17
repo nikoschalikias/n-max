@@ -1,0 +1,808 @@
+ (routes 
+# Routes file created by SPECCTRA ShapeBased Automation Software V15.1 made 2003/11/17 at 23:03:32
+  (resolution MIL 10000)
+  (parser
+  )
+  (structure_out
+   (layer TopLayer (type signal)
+   )
+   (layer InternalPlane1 (type power)
+   )
+   (layer InternalPlane2 (type power)
+   )
+   (layer BottomLayer (type signal)
+   )
+  )
+  (library_out
+  (padstack Via0_TB_RoutingVias 
+   (shape (circ signal 196850 0 0))
+  )
+  )
+  (network_out
+   (Net 1 
+   (wire (path BottomLayer 78740  31102300 43307000 31102300 43017570 32397270 43017570)
+    (connect (terminal via) (terminal smd U1-2))
+   )
+   (wire (path TopLayer 78740  31102300 43307000 31102300 42773450 26598239 42773450
+     26598239 43435317 23100000 43435317 23100000 43001780)
+    (connect (terminal via) (terminal pin B1-3))
+   )
+   (via Via0_TB_RoutingVias 31102300 43307000)
+   )
+   (Net 2 
+   (wire (path BottomLayer 78740  30314900 42125900 30314900 42820680 32397270 42820680)
+    (connect (terminal via) (terminal smd U1-3))
+   )
+   (wire (path TopLayer 78740  30314900 42125900 30098028 42125900 30098028 42001780
+     23100000 42001780)
+    (connect (terminal via) (terminal pin B1-4))
+   )
+   (via Via0_TB_RoutingVias 30314900 42125900)
+   )
+   (Net 3 
+   (wire (path BottomLayer 78740  31102300 41732200 31102300 42623870 32397270 42623870)
+    (connect (terminal via) (terminal smd U1-4))
+   )
+   (wire (path TopLayer 78740  31102300 41732200 23691848 41732200 23691848 41001780
+     23100000 41001780)
+    (connect (terminal via) (terminal pin B1-5))
+   )
+   (via Via0_TB_RoutingVias 31102300 41732200)
+   )
+   (Net 3.3V 
+   (wire (path BottomLayer 78740  29133800 36220400 28125806 36220400 28125806 36961780
+     27849990 36961780)
+    (connect (terminal via) (terminal smd C3-1))
+   )
+   (wire (path BottomLayer 78740  23622000 34645600 23622000 33978725 24449990 33978725
+     24449990 33741780)
+    (connect (terminal via) (terminal smd R26-1))
+   )
+   (wire (path BottomLayer 78740  25590500 35826700 25590500 35191780 25999990 35191780)
+    (connect (terminal via) (terminal smd C8-1))
+   )
+   (wire (path BottomLayer 78740  32283400 38188900 32326812 38188900 32326812 37451780
+     32089990 37451780)
+    (connect (terminal via) (terminal smd C6-1))
+   )
+   (wire (path BottomLayer 78740  25590500 39370000 25596388 39370000 25596388 40051780
+     25359990 40051780)
+    (connect (terminal via) (terminal smd C4-1))
+   )
+   (wire (path BottomLayer 78740  33070800 40157400 33070800 40532861 33376670 40532861
+     33376670 40851780 33139990 40851780)
+    (connect (terminal via) (terminal smd C9-1))
+   )
+   (wire (path BottomLayer 78740  31102300 44881800 30846465 44881800 30846465 44801780
+     30609990 44801780)
+    (connect (terminal via) (terminal smd C10-1))
+   )
+   (wire (path BottomLayer 78740  28346400 44881800 28096687 44881800 28096687 44801780
+     27859990 44801780)
+    (connect (terminal via) (terminal smd C2-1))
+   )
+   (wire (path BottomLayer 78740  25590500 40551100 25596388 40551100 25596388 40851780
+     25359990 40851780)
+    (connect (terminal via) (terminal smd C1-1))
+   )
+   (wire (path BottomLayer 78740  25196800 44094400 25196800 43661780 25099990 43661780)
+    (connect (terminal via) (terminal smd C5-1))
+   )
+   (wire (path BottomLayer 78740  26377900 33464500 26009990 33464500 26009990 34191780)
+    (connect (terminal via) (terminal smd U2-2))
+   )
+   (wire (path BottomLayer 78740  30314900 38582600 30625630 38582600 30625630 37702530)
+    (connect (terminal via) (terminal smd U1-31))
+   )
+   (wire (path BottomLayer 78740  26771600 40551100 26771600 40852180 26097990 40852180)
+    (connect (terminal via) (terminal smd U1-63))
+   )
+   (wire (path BottomLayer 78740  26771600 39763700 26771600 40064780 26097990 40064780)
+    (connect (terminal via) (terminal smd U1-59))
+   )
+   (wire (path BottomLayer 78740  27559000 43307000 27559000 43524248 27672830 43524248
+     27672830 44001810)
+    (connect (terminal via) (terminal smd U1-80))
+   )
+   (wire (path BottomLayer 78740  29133800 37007800 29133800 37225100 29050750 37225100
+     29050750 37702530)
+    (connect (terminal via) (terminal smd U1-39))
+   )
+   (wire (path BottomLayer 78740  31889700 41732200 31889700 41639580 32397270 41639580)
+    (connect (terminal via) (terminal smd U1-9))
+   )
+   (wire (path BottomLayer 78740  31889700 40944800 31889700 40852180 32397270 40852180)
+    (connect (terminal via) (terminal smd U1-13))
+   )
+   (wire (path BottomLayer 78740  30314900 44488100 30428740 44488100 30428740 44001810)
+    (connect (terminal via) (terminal smd U1-94))
+   )
+   (wire (path BottomLayer 78740  29527500 44488100 29641340 44488100 29641340 44001810)
+    (connect (terminal via) (terminal smd U1-90))
+   )
+   (wire (path BottomLayer 78740  27952700 38188900 27869650 38188900 27869650 37702530)
+    (connect (terminal via) (terminal smd U1-45))
+   )
+   (via Via0_TB_RoutingVias 29133800 36220400 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 23622000 34645600 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 25590500 35826700 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 32283400 38188900 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 25590500 39370000 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 33070800 40157400 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 31102300 44881800 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 28346400 44881800 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 25590500 40551100 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 25196800 44094400 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 26377900 33464500 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 30314900 38582600 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 26771600 40551100 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 26771600 39763700 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 27559000 43307000 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 29133800 37007800 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 31889700 41732200 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 31889700 40944800 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 30314900 44488100 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 29527500 44488100 (contact InternalPlane1))
+   (via Via0_TB_RoutingVias 27952700 38188900 (contact InternalPlane1))
+   )
+   (Net 4 
+   (wire (path BottomLayer 78740  33070800 42913300 33070800 42426980 32397270 42426980)
+    (connect (terminal via) (terminal smd U1-5))
+   )
+   (wire (path TopLayer 78740  23622000 42913300 26123678 42913300 26123678 42615263
+     33070800 42615263 33070800 42913300)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  23622000 42913300 23622000 40001780 23100000 40001780)
+    (connect (terminal via) (terminal pin B1-6))
+   )
+   (via Via0_TB_RoutingVias 33070800 42913300)
+   (via Via0_TB_RoutingVias 23622000 42913300)
+   )
+   (Net 5 
+   (wire (path BottomLayer 78740  33464500 42519600 33464500 42230170 32397270 42230170)
+    (connect (terminal via) (terminal smd U1-6))
+   )
+   (wire (path TopLayer 78740  24015700 42519600 24015700 42302824 28021922 42302824
+     28021922 42342961 33464500 42342961 33464500 42519600)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  24015700 42519600 23938966 42519600 23938966 39001780
+     23100000 39001780)
+    (connect (terminal via) (terminal pin B1-7))
+   )
+   (via Via0_TB_RoutingVias 33464500 42519600)
+   (via Via0_TB_RoutingVias 24015700 42519600)
+   )
+   (Net 5V 
+   (wire (path BottomLayer 78740  27976276 34477683 26909990 34477683 26909990 34191780)
+    (connect (terminal wire) (terminal smd U2-3))
+   )
+   (wire (path BottomLayer 78740  27976276 34477683 27976276 34201780 27739990 34201780)
+    (connect (terminal wire) (terminal smd C7-1))
+   )
+   (wire (path BottomLayer 78740  33681239 34001780 33681239 34477683 27976276 34477683)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BottomLayer 78740  33681239 34001780 33681239 32907618 26630506 32907618
+     26630506 32936737 23100000 32936737 23100000 34001780)
+    (connect (terminal wire) (terminal pin B1-12))
+   )
+   (wire (path BottomLayer 78740  33681239 34001780 35100000 34001780)
+    (connect (terminal wire) (terminal pin B1-13))
+   )
+   )
+   (Net 6 
+   (wire (path BottomLayer 78740  33858200 41732200 33858200 42033280 32397270 42033280)
+    (connect (terminal via) (terminal smd U1-7))
+   )
+   (wire (path TopLayer 78740  33858200 41732200 33858200 40728037 30613513 40728037
+     30613513 41555174 23850035 41555174 23850035 38001780 23100000 38001780)
+    (connect (terminal via) (terminal pin B1-8))
+   )
+   (via Via0_TB_RoutingVias 33858200 41732200)
+   )
+   (Net 7 
+   (wire (path BottomLayer 78740  32283400 43700700 33445926 43700700 33445926 42894648
+     34074739 42894648 34074739 41515037 33592308 41515037 33592308 41836470
+     32397270 41836470)
+    (connect (terminal via) (terminal smd U1-8))
+   )
+   (wire (path TopLayer 78740  24409400 43700700 26914613 43700700 26914613 42931637
+     30848039 42931637 30848039 43700700 32283400 43700700)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  24409400 43700700 24409400 41794422 24097153 41794422
+     24097153 37001780 23100000 37001780)
+    (connect (terminal via) (terminal pin B1-9))
+   )
+   (via Via0_TB_RoutingVias 32283400 43700700)
+   (via Via0_TB_RoutingVias 24409400 43700700)
+   )
+   (Net 8 
+   (wire (path BottomLayer 78740  33858200 43307000 34469026 43307000 34469026 39940250
+     32751792 39940250 32751792 41049070 32397270 41049070)
+    (connect (terminal via) (terminal smd U1-12))
+   )
+   (wire (path TopLayer 78740  30708600 42125900 33858200 42125900 33858200 43307000)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  28346400 41338500 28346400 41871548 30708600 41871548
+     30708600 42125900)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path TopLayer 78740  28346400 41338500 24008222 41338500 24008222 36434952
+     23100000 36434952 23100000 36001780)
+    (connect (terminal via) (terminal pin B1-10))
+   )
+   (via Via0_TB_RoutingVias 33858200 43307000)
+   (via Via0_TB_RoutingVias 30708600 42125900)
+   (via Via0_TB_RoutingVias 28346400 41338500)
+   )
+   (Net 9 
+   (wire (path BottomLayer 78740  28740100 40551100 28740100 41555174 29983126 41555174
+     29983126 41478048 31635826 41478048 31635826 40458480 32397270 40458480)
+    (connect (terminal via) (terminal smd U1-15))
+   )
+   (wire (path TopLayer 78740  25196800 35039300 26281865 35039300 26281865 39351574
+     28740100 39351574 28740100 40551100)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  25196800 35039300 24980167 35039300 24980167 35001780
+     23100000 35001780)
+    (connect (terminal via) (terminal pin B1-11))
+   )
+   (via Via0_TB_RoutingVias 28740100 40551100)
+   (via Via0_TB_RoutingVias 25196800 35039300)
+   )
+   (Net 10 
+   (wire (path BottomLayer 78740  29527500 40551100 29527500 41319861 31477639 41319861
+     31477639 40064780 32397270 40064780)
+    (connect (terminal via) (terminal smd U1-17))
+   )
+   (wire (path TopLayer 78740  25984200 36614100 25984200 36830813 26123678 36830813
+     26123678 39509761 28091965 39509761 28091965 40768174 29527500 40768174
+     29527500 40551100)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  25984200 36614100 26276356 36614100 26276356 34775169
+     34587863 34775169 34587863 35001780 35100000 35001780)
+    (connect (terminal via) (terminal pin B1-14))
+   )
+   (via Via0_TB_RoutingVias 29527500 40551100)
+   (via Via0_TB_RoutingVias 25984200 36614100)
+   )
+   (Net 11 
+   (wire (path BottomLayer 78740  34251900 37401500 34251900 39671080 32397270 39671080)
+    (connect (terminal via) (terminal smd U1-19))
+   )
+   (wire (path TopLayer 78740  34251900 37401500 34251900 36001780 35100000 36001780)
+    (connect (terminal via) (terminal pin B1-15))
+   )
+   (via Via0_TB_RoutingVias 34251900 37401500)
+   )
+   (Net 12 
+   (wire (path BottomLayer 78740  35100000 37001780 33920487 37001780 33920487 39474190
+     32397270 39474190)
+    (connect (terminal pin B1-16) (terminal smd U1-20))
+   )
+   )
+   (Net 13 
+   (wire (path BottomLayer 78740  33464500 38582600 33464500 39277380 32397270 39277380)
+    (connect (terminal via) (terminal smd U1-21))
+   )
+   (wire (path TopLayer 78740  33464500 38582600 33464500 38435506 35100000 38435506
+     35100000 38001780)
+    (connect (terminal via) (terminal pin B1-17))
+   )
+   (via Via0_TB_RoutingVias 33464500 38582600)
+   )
+   (Net 14 
+   (wire (path BottomLayer 78740  31496000 38976300 31496000 38759750 31609840 38759750
+     31609840 37702530)
+    (connect (terminal via) (terminal smd U1-26))
+   )
+   (wire (path TopLayer 78740  31496000 38976300 31712952 38976300 31712952 39001780
+     35100000 39001780)
+    (connect (terminal via) (terminal pin B1-18))
+   )
+   (via Via0_TB_RoutingVias 31496000 38976300)
+   )
+   (Net 15 
+   (wire (path BottomLayer 78740  31496000 39370000 31279315 39370000 31279315 38373333
+     31413030 38373333 31413030 37702530)
+    (connect (terminal via) (terminal smd U1-27))
+   )
+   (wire (path TopLayer 78740  31496000 39370000 31496000 39434996 35100000 39434996
+     35100000 40001780)
+    (connect (terminal via) (terminal pin B1-19))
+   )
+   (via Via0_TB_RoutingVias 31496000 39370000)
+   )
+   (Net 16 
+   (wire (path BottomLayer 78740  31889700 38188900 31777486 38188900 31777486 37347872
+     31216140 37347872 31216140 37702530)
+    (connect (terminal via) (terminal smd U1-28))
+   )
+   (wire (path TopLayer 78740  33464500 40157400 33464500 39909557 31121128 39909557
+     31121128 38188900 31889700 38188900)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  34251900 40157400 33464500 40157400)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path TopLayer 78740  34251900 40157400 34251900 40551749 35100000 40551749
+     35100000 41001780)
+    (connect (terminal via) (terminal pin B1-20))
+   )
+   (via Via0_TB_RoutingVias 31889700 38188900)
+   (via Via0_TB_RoutingVias 33464500 40157400)
+   (via Via0_TB_RoutingVias 34251900 40157400)
+   )
+   (Net 17 
+   (wire (path BottomLayer 78740  31102300 40944800 31102300 40728037 31019330 40728037
+     31019330 37702530)
+    (connect (terminal via) (terminal smd U1-29))
+   )
+   (wire (path TopLayer 78740  31102300 40944800 31477639 40944800 31477639 41949461
+     34074739 41949461 34074739 43917748 30689852 43917748 30689852 43089824
+     28616107 43089824 28616107 47393140 33432547 47393140 33432547 45439806
+     34469026 45439806 34469026 42001780 35100000 42001780)
+    (connect (terminal via) (terminal pin B1-21))
+   )
+   (via Via0_TB_RoutingVias 31102300 40944800)
+   )
+   (Net 18 
+   (wire (path BottomLayer 78740  26377900 47637700 26377900 43584060 26988591 43584060
+     26988591 39745074 30822440 39745074 30822440 37702530)
+    (connect (terminal via) (terminal smd U1-30))
+   )
+   (wire (path TopLayer 78740  26377900 47637700 33748921 47637700 33748921 45756180
+     34627213 45756180 34627213 43001780 35100000 43001780)
+    (connect (terminal via) (terminal pin B1-22))
+   )
+   (via Via0_TB_RoutingVias 26377900 47637700)
+   )
+   (Net 19 
+   (wire (path BottomLayer 78740  30314900 38188900 30231930 38188900 30231930 37702530)
+    (connect (terminal via) (terminal smd U1-33))
+   )
+   (wire (path TopLayer 78740  30314900 38188900 30314900 37383287 32102517 37383287
+     32102517 34487127 32544024 34487127 32544024 31907341 29149990 31907341
+     29149990 32301780)
+    (connect (terminal via) (terminal pin JP2-3))
+   )
+   (via Via0_TB_RoutingVias 30314900 38188900)
+   )
+   (Net 20 
+   (wire (path BottomLayer 78740  30314900 38976300 30035040 38976300 30035040 37702530)
+    (connect (terminal via) (terminal smd U1-34))
+   )
+   (wire (path TopLayer 78740  33070800 32283400 33287739 32283400 33287739 37618600
+     30531665 37618600 30531665 38976300 30314900 38976300)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  33070800 32283400 33681239 32283400 33681239 31514628
+     30149990 31514628 30149990 32301780)
+    (connect (terminal via) (terminal pin JP2-5))
+   )
+   (via Via0_TB_RoutingVias 30314900 38976300)
+   (via Via0_TB_RoutingVias 33070800 32283400)
+   )
+   (Net 21 
+   (wire (path BottomLayer 78740  30314900 39370000 29838230 39370000 29838230 37702530)
+    (connect (terminal via) (terminal smd U1-35))
+   )
+   (wire (path TopLayer 78740  33464500 31889700 33464500 37776787 30689852 37776787
+     30689852 39370000 30314900 39370000)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  33464500 31889700 31149990 31889700 31149990 32301780)
+    (connect (terminal via) (terminal pin JP2-7))
+   )
+   (via Via0_TB_RoutingVias 30314900 39370000)
+   (via Via0_TB_RoutingVias 33464500 31889700)
+   )
+   (Net 22 
+   (wire (path BottomLayer 78740  26771600 38976300 26771600 39193387 28956878 39193387
+     28956878 38215146 28853940 38215146 28853940 37702530)
+    (connect (terminal via) (terminal smd U1-40))
+   )
+   (wire (path TopLayer 78740  26771600 32677100 26771600 38976300)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  26771600 32677100 26771600 32695915 32149990 32695915
+     32149990 32301780)
+    (connect (terminal via) (terminal pin JP2-9))
+   )
+   (via Via0_TB_RoutingVias 26771600 38976300)
+   (via Via0_TB_RoutingVias 26771600 32677100)
+   )
+   (Net 23 
+   (wire (path BottomLayer 78740  28740100 38582600 28740100 38365463 28657050 38365463
+     28657050 37702530)
+    (connect (terminal via) (terminal smd U1-41))
+   )
+   (wire (path TopLayer 78740  29921200 34251900 29921200 34785400 28155712 34785400
+     28155712 37354168 28740100 37354168 28740100 38582600)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  29921200 34251900 32149990 34251900 32149990 33301780)
+    (connect (terminal via) (terminal pin JP2-10))
+   )
+   (via Via0_TB_RoutingVias 28740100 38582600)
+   (via Via0_TB_RoutingVias 29921200 34251900)
+   )
+   (Net 24 
+   (wire (path BottomLayer 78740  28346400 38976300 28346400 38759750 28460240 38759750
+     28460240 37702530)
+    (connect (terminal via) (terminal smd U1-42))
+   )
+   (wire (path TopLayer 78740  28346400 38976300 28346400 37670542 27997525 37670542
+     27997525 34012566 30702444 34012566 30702444 33301780 31149990 33301780)
+    (connect (terminal via) (terminal pin JP2-8))
+   )
+   (via Via0_TB_RoutingVias 28346400 38976300)
+   )
+   (Net 25 
+   (wire (path BottomLayer 78740  27952700 38582600 28263350 38582600 28263350 37702530)
+    (connect (terminal via) (terminal smd U1-43))
+   )
+   (wire (path TopLayer 78740  27952700 38582600 27735454 38582600 27735454 33854379
+     30149990 33854379 30149990 33301780)
+    (connect (terminal via) (terminal pin JP2-6))
+   )
+   (via Via0_TB_RoutingVias 27952700 38582600)
+   )
+   (Net 26 
+   (wire (path BottomLayer 78740  27165300 36220400 27437181 36220400 27437181 37198342
+     28066530 37198342 28066530 37702530)
+    (connect (terminal via) (terminal smd U1-44))
+   )
+   (wire (path TopLayer 78740  27165300 36220400 27540278 36220400 27540278 33696192
+     29149990 33696192 29149990 33301780)
+    (connect (terminal via) (terminal pin JP2-4))
+   )
+   (via Via0_TB_RoutingVias 27165300 36220400)
+   )
+   (Net 27 
+   (wire (path BottomLayer 78740  31102300 33858200 27662263 33858200 27662263 33247602
+     25523197 33247602 25523197 34863313 25413804 34863313 25413804 35256026
+     24605555 35256026 24605555 37454117 25178491 37454117 25178491 38170287
+     26452644 38170287 26452644 38405600 27475940 38405600 27475940 37702530)
+    (connect (terminal via) (terminal smd U1-47))
+   )
+   (wire (path TopLayer 78740  31102300 33858200 31102300 35101774 29549990 35101774
+     29549990 35801780)
+    (connect (terminal via) (terminal pin JP3-3))
+   )
+   (via Via0_TB_RoutingVias 31102300 33858200)
+   )
+   (Net 28 
+   (wire (path BottomLayer 78740  30549990 35801780 30549990 35249730 26790267 35249730
+     26790267 36989000 27279130 36989000 27279130 37702530)
+    (connect (terminal pin JP3-5) (terminal smd U1-48))
+   )
+   )
+   (Net 29 
+   (wire (path BottomLayer 78740  27165300 38188900 27082240 38188900 27082240 37702530)
+    (connect (terminal via) (terminal smd U1-49))
+   )
+   (wire (path TopLayer 78740  27165300 38188900 26948454 38188900 26948454 32907618
+     31549990 32907618 31549990 35801780)
+    (connect (terminal via) (terminal pin JP3-7))
+   )
+   (via Via0_TB_RoutingVias 27165300 38188900)
+   )
+   (Net 30 
+   (wire (path BottomLayer 78740  32549990 35801780 32549990 35091543 26632080 35091543
+     26632080 37305374 26885430 37305374 26885430 37702530)
+    (connect (terminal pin JP3-9) (terminal smd U1-50))
+   )
+   )
+   (Net 31 
+   (wire (path BottomLayer 78740  24803100 37795200 24803100 38489970 26097990 38489970)
+    (connect (terminal via) (terminal smd U1-51))
+   )
+   (wire (path TopLayer 78740  25590500 37795200 24803100 37795200)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  25590500 37795200 26434543 37795200 26434543 34933356
+     32943820 34933356 32943820 36801780 32549990 36801780)
+    (connect (terminal via) (terminal pin JP3-10))
+   )
+   (via Via0_TB_RoutingVias 24803100 37795200)
+   (via Via0_TB_RoutingVias 25590500 37795200)
+   )
+   (Net 32 
+   (wire (path BottomLayer 78740  24015700 35826700 24413527 35826700 24413527 38686780
+     26097990 38686780)
+    (connect (terminal via) (terminal smd U1-52))
+   )
+   (wire (path TopLayer 78740  24015700 35826700 23974381 35826700 23974381 33068166
+     26342464 33068166 26342464 32459815 27423015 32459815 27423015 32695915
+     31708230 32695915 31708230 34961688 31944330 34961688 31944330 36801780
+     31549990 36801780)
+    (connect (terminal via) (terminal pin JP3-8))
+   )
+   (via Via0_TB_RoutingVias 24015700 35826700)
+   )
+   (Net 33 
+   (wire (path BottomLayer 78740  24803100 38976300 25020304 38976300 25020304 38883670
+     26097990 38883670)
+    (connect (terminal via) (terminal smd U1-53))
+   )
+   (wire (path TopLayer 78740  30549990 36801780 29980765 36801780 29980765 41084548
+     24803100 41084548 24803100 38976300)
+    (connect (terminal pin JP3-6) (terminal via))
+   )
+   (via Via0_TB_RoutingVias 24803100 38976300)
+   )
+   (Net 34 
+   (wire (path BottomLayer 78740  27165300 38976300 27165300 38759750 26452644 38759750
+     26452644 39080490 26097990 39080490)
+    (connect (terminal via) (terminal smd U1-54))
+   )
+   (wire (path TopLayer 78740  27165300 36614100 27382091 36614100 27382091 38976300
+     27165300 38976300)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  31102300 36220400 30138165 36220400 30138165 35407917
+     26948454 35407917 26948454 36614100 27165300 36614100)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path TopLayer 78740  31102300 36220400 30138165 36220400 30138165 36565594
+     29549990 36565594 29549990 36801780)
+    (connect (terminal via) (terminal pin JP3-4))
+   )
+   (via Via0_TB_RoutingVias 27165300 38976300)
+   (via Via0_TB_RoutingVias 27165300 36614100)
+   (via Via0_TB_RoutingVias 31102300 36220400)
+   )
+   (Net CLK 
+   (wire (path BottomLayer 78740  29921200 43307000 29921200 42659335 27971554 42659335
+     27971554 40176350 30219226 40176350 30219226 41161674 31319452 41161674
+     31319452 39745074 31926229 39745074 31926229 38686780 32397270 38686780)
+    (connect (terminal via) (terminal smd U1-24))
+   )
+   (wire (path TopLayer 78740  29921200 43307000 29921200 45281619 31483148 45281619
+     31483148 46801780 32049990 46801780)
+    (connect (terminal via) (terminal pin JP1-1))
+   )
+   (via Via0_TB_RoutingVias 29921200 43307000)
+   )
+   (Net GND 
+   (wire (path TopLayer 78740  27165300 31889700 25749990 31889700 25749990 32831780)
+    (connect (terminal via) (terminal smd R2-2))
+   )
+   (wire (path TopLayer 78740  24803100 31496000 25249990 31496000 25249990 32831780)
+    (connect (terminal via) (terminal smd R1-2))
+   )
+   (wire (path BottomLayer 78740  27165300 35826700 27849990 35826700 27849990 36431780)
+    (connect (terminal via) (terminal smd C3-2))
+   )
+   (wire (path BottomLayer 78740  25196800 42519600 25196800 42895435 25099990 42895435
+     25099990 43131780)
+    (connect (terminal via) (terminal smd C5-2))
+   )
+   (wire (path TopLayer 78740  24409400 32283400 24367881 32283400 24367881 32831780
+     24249990 32831780)
+    (connect (terminal via) (terminal smd R4-2))
+   )
+   (wire (path BottomLayer 78740  34251900 40944800 33906321 40944800 33906321 40851780
+     33669990 40851780)
+    (connect (terminal via) (terminal smd C9-2))
+   )
+   (wire (path BottomLayer 78740  26771600 44881800 27093262 44881800 27093262 44801780
+     27329990 44801780)
+    (connect (terminal via) (terminal smd C2-2))
+   )
+   (wire (path BottomLayer 78740  29527500 44881800 29843040 44881800 29843040 44801780
+     30079990 44801780)
+    (connect (terminal via) (terminal smd C10-2))
+   )
+   (wire (path BottomLayer 78740  23622000 33464500 23831934 33464500 23831934 33741780
+     23949990 33741780)
+    (connect (terminal via) (terminal smd R27-1))
+   )
+   (wire (path TopLayer 78740  24803100 32283400 24803100 32595179 24749990 32595179
+     24749990 32831780)
+    (connect (terminal via) (terminal smd R3-2))
+   )
+   (wire (path BottomLayer 78740  24409400 40157400 24829990 40157400 24829990 40051780)
+    (connect (terminal via) (terminal smd C4-2))
+   )
+   (wire (path BottomLayer 78740  28740100 34251900 28506714 34251900 28506714 34201780
+     28269990 34201780)
+    (connect (terminal via) (terminal smd C7-2))
+   )
+   (wire (path BottomLayer 78740  25984200 36220400 25984200 35958030 25999990 35958030
+     25999990 35721780)
+    (connect (terminal via) (terminal smd C8-2))
+   )
+   (wire (path BottomLayer 78740  24409400 40944800 24829990 40944800 24829990 40851780)
+    (connect (terminal via) (terminal smd C1-2))
+   )
+   (wire (path BottomLayer 78740  33070800 37401500 32619990 37401500 32619990 37451780)
+    (connect (terminal via) (terminal smd C6-2))
+   )
+   (wire (path BottomLayer 78740  29921200 36220400 29943776 36220400 29943776 37195981
+     29454262 37195981 29454262 37702530 29444530 37702530)
+    (connect (terminal via) (terminal smd U1-37))
+   )
+   (wire (path BottomLayer 78740  25590500 42519600 25590500 41255327 26097990 41255327
+     26097990 41245880)
+    (connect (terminal via) (terminal smd U1-65))
+   )
+   (wire (path BottomLayer 78740  27952700 38976300 27672830 38976300 27672830 37702530)
+    (connect (terminal via) (terminal smd U1-46))
+   )
+   (wire (path BottomLayer 78740  31102300 37007800 30944053 37007800 30944053 37195981
+     30438012 37195981 30438012 37702530 30428740 37702530)
+    (connect (terminal via) (terminal smd U1-32))
+   )
+   (wire (path BottomLayer 78740  26771600 44488100 27466300 44488100 27466300 44001810
+     27475940 44001810)
+    (connect (terminal via) (terminal smd U1-79))
+   )
+   (wire (path BottomLayer 78740  30314900 43307000 30241262 43307000 30241262 44001810
+     30231930 44001810)
+    (connect (terminal via) (terminal smd U1-93))
+   )
+   (wire (path BottomLayer 78740  33070800 41338500 33070800 41255327 32397270 41255327
+     32397270 41245880)
+    (connect (terminal via) (terminal smd U1-11))
+   )
+   (wire (path BottomLayer 78740  31889700 41338500 31889700 41433189 32397270 41433189
+     32397270 41442770)
+    (connect (terminal via) (terminal smd U1-10))
+   )
+   (wire (path BottomLayer 78740  29133800 44488100 29238624 44488100 29238624 44001810
+     29247640 44001810)
+    (connect (terminal via) (terminal smd U1-88))
+   )
+   (via Via0_TB_RoutingVias 27165300 31889700 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 24803100 31496000 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 27165300 35826700 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 25196800 42519600 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 24409400 32283400 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 34251900 40944800 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 26771600 44881800 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 29527500 44881800 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 23622000 33464500 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 24803100 32283400 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 24409400 40157400 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 28740100 34251900 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 25984200 36220400 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 24409400 40944800 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 33070800 37401500 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 29921200 36220400 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 25590500 42519600 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 27952700 38976300 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 31102300 37007800 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 26771600 44488100 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 30314900 43307000 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 33070800 41338500 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 31889700 41338500 (contact InternalPlane2))
+   (via Via0_TB_RoutingVias 29133800 44488100 (contact InternalPlane2))
+   )
+   (Net LED0 
+   (wire (path TopLayer 78740  27559000 40157400 25965491 40157400 25965491 37454117
+     24605555 37454117 24605555 34706700 25249990 34706700 25249990 34311780)
+    (connect (terminal via) (terminal smd LD1-1))
+   )
+   (wire (path BottomLayer 78740  27559000 40157400 27341954 40157400 27341954 42975709
+     28853940 42975709 28853940 44001810)
+    (connect (terminal via) (terminal smd U1-86))
+   )
+   (via Via0_TB_RoutingVias 27559000 40157400)
+   )
+   (Net LED1 
+   (wire (path TopLayer 78740  29527500 38582600 29527500 39193387 26440052 39193387
+     26440052 34311780 25749990 34311780)
+    (connect (terminal via) (terminal smd LD2-1))
+   )
+   (wire (path BottomLayer 78740  29527500 38582600 29247640 38582600 29247640 37702530)
+    (connect (terminal via) (terminal smd U1-38))
+   )
+   (via Via0_TB_RoutingVias 29527500 38582600)
+   )
+   (Net LED2 
+   (wire (path TopLayer 78740  27559000 40551100 27559000 40768174 25807304 40768174
+     25807304 38328474 24447368 38328474 24447368 34548513 24749990 34548513
+     24749990 34311780)
+    (connect (terminal via) (terminal smd LD3-1))
+   )
+   (wire (path BottomLayer 78740  27559000 40551100 27559000 42817522 29050750 42817522
+     29050750 44001810)
+    (connect (terminal via) (terminal smd U1-87))
+   )
+   (via Via0_TB_RoutingVias 27559000 40551100)
+   )
+   (Net LED3 
+   (wire (path TopLayer 78740  29527500 38188900 29744665 38188900 29744665 40926361
+     25278440 40926361 25278440 38644848 24249990 38644848 24249990 34311780)
+    (connect (terminal via) (terminal smd LD4-1))
+   )
+   (wire (path BottomLayer 78740  29527500 38188900 29641340 38188900 29641340 37702530)
+    (connect (terminal via) (terminal smd U1-36))
+   )
+   (via Via0_TB_RoutingVias 29527500 38188900)
+   )
+   (Net NetLD1_2 
+   (wire (path TopLayer 78740  25249990 33781780 25249990 33361780)
+    (connect (terminal smd LD1-2) (terminal smd R1-1))
+   )
+   )
+   (Net NetLD2_2 
+   (wire (path TopLayer 78740  25749990 33361780 25749990 33781780)
+    (connect (terminal smd R2-1) (terminal smd LD2-2))
+   )
+   )
+   (Net NetLD3_2 
+   (wire (path TopLayer 78740  24749990 33781780 24749990 33361780)
+    (connect (terminal smd LD3-2) (terminal smd R3-1))
+   )
+   )
+   (Net NetLD4_2 
+   (wire (path TopLayer 78740  24249990 33781780 24249990 33361780)
+    (connect (terminal smd LD4-2) (terminal smd R4-1))
+   )
+   )
+   (Net NetR26_2 
+   (wire (path BottomLayer 78740  24449990 34705126 23949990 34705126 23949990 34271780)
+    (connect (terminal wire) (terminal smd R27-2))
+   )
+   (wire (path BottomLayer 78740  24449990 34705126 24449990 34271780)
+    (connect (terminal wire) (terminal smd R26-2))
+   )
+   (wire (path BottomLayer 78740  24449990 34705126 25109990 34705126 25109990 34191780)
+    (connect (terminal wire) (terminal smd U2-1))
+   )
+   )
+   (Net TDI 
+   (wire (path BottomLayer 78740  33070800 38188900 32791929 38188900 32791929 38883670
+     32397270 38883670)
+    (connect (terminal via) (terminal smd U1-23))
+   )
+   (wire (path TopLayer 78740  29133800 41338500 30297139 41338500 30297139 40061448
+     30848039 40061448 30848039 37971963 33070800 37971963 33070800 38188900)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  29133800 41338500 29133800 40334537 28129741 40334537
+     28129741 42501148 30098815 42501148 30098815 42978857 30852761 42978857
+     30852761 43524248 31777486 43524248 31777486 45099035 28483104 45099035
+     28483104 46801780 28049990 46801780)
+    (connect (terminal via) (terminal pin JP1-9))
+   )
+   (via Via0_TB_RoutingVias 33070800 38188900)
+   (via Via0_TB_RoutingVias 29133800 41338500)
+   )
+   (Net TDO 
+   (wire (path BottomLayer 78740  34645600 36614100 33604113 36614100 33604113 37886180
+     32633742 37886180 32633742 38441015 32397270 38441015 32397270 38489970)
+    (connect (terminal via) (terminal smd U1-25))
+   )
+   (wire (path TopLayer 78740  34645600 37401500 34645600 36614100)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BottomLayer 78740  34645600 37401500 34645600 45257222 31483148 45257222
+     31483148 46801780 31049990 46801780)
+    (connect (terminal via) (terminal pin JP1-3))
+   )
+   (via Via0_TB_RoutingVias 34645600 36614100)
+   (via Via0_TB_RoutingVias 34645600 37401500)
+   )
+   (Net TMS 
+   (wire (path BottomLayer 78740  33070800 38582600 33070800 39080490 32397270 39080490)
+    (connect (terminal via) (terminal smd U1-22))
+   )
+   (wire (path TopLayer 78740  33070800 38582600 31279315 38582600 31279315 39751370
+     34015714 39751370 34015714 41435550 34232926 41435550 34232926 45123432
+     32957986 45123432 32957986 47234953 30049990 47234953 30049990 46801780)
+    (connect (terminal via) (terminal pin JP1-5))
+   )
+   (via Via0_TB_RoutingVias 33070800 38582600)
+   )
+  )
+ )

@@ -1,0 +1,23 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [n-MAX.PcbDoc]
+   Generated File[n-MAX.GTL]
+   Generated File[n-MAX.GP1]
+   Generated File[n-MAX.GP2]
+   Generated File[n-MAX.GBL]
+   Generated File[n-MAX.GTO]
+   Generated File[n-MAX.GTP]
+   Generated File[n-MAX.GTS]
+   Generated File[n-MAX.GBS]
+   Generated File[n-MAX.GBP]
+   Generated File[n-MAX.GBO]
+   Generated File[n-MAX.GM3]
+   Generated File[n-MAX.RUL]
+   Generated File[n-MAX.EXTREP]
+   Generated File[n-MAX.REP]
+
+
+Files Generated   : 14
+Documents Printed : 0
+
+Finished Output Generation At 14:03:48 On 17/03/2015

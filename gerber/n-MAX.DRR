@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: n-MAX.PcbDoc   17/03/2015  14:03:47
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : n-MAX.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.2mm (7.874mil)         Round          102              300.99 mm (11.85 Inch)
+T2        0.9mm (35.433mil)        Round          10               22.86 mm (0.90 Inch)
+T3        0.9144mm (36mil)         Round          20               61.22 mm (2.41 Inch)
+T4        1mm (39.37mil)           Round          26               110.29 mm (4.34 Inch)
+T5        2mm (78.74mil)           Round          4                96.49 mm (3.80 Inch)
+---------------------------------------------------------------------------
+Totals                                            162              591.85 mm (23.30 Inch)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

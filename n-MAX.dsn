@@ -1,0 +1,1098 @@
+(pcb n-MAX.dsn
+    (resolution MIL 10000)
+    (structure
+        (boundary
+            (rect pcb
+                1840.157 2490.178 3689.055 4871.360
+            )
+        )
+        (boundary
+            (path signal 0.0
+                2260.000 3100.178
+                3560.000 3100.178
+                3560.000 4800.178
+                2260.000 4800.178
+                2260.000 3100.178
+            )
+        )
+        (via
+            Via0_TB_RoutingVias
+        )
+        (rule
+            (length_amplitude 200 20)
+            (width 7.874)
+            (clearance 7.874)
+            (reorder starburst)
+        )
+        (layer TopLayer 
+            (type signal) (direction horizontal)
+        )
+        (layer InternalPlane1 (type power) (use_net 3.3V 3.3V ))
+        (layer InternalPlane2 (type power) (use_net GND GND ))
+        (layer BottomLayer 
+            (type signal) (direction vertical)
+        )
+        (plane 3.3V
+            (polygon InternalPlane1 10.000
+                3539.903 3120.275
+                2280.097 3120.275
+                2280.097 4780.081
+                3539.903 4780.081
+                3539.903 3120.275
+            )
+        )
+        (plane GND
+            (polygon InternalPlane2 10.000
+                3539.903 3120.275
+                2280.097 3120.275
+                2280.097 4780.081
+                3539.903 4780.081
+                3539.903 3120.275
+            )
+        )
+        (keepout 
+            (path signal 5.905 3562.740 3200.178 3560.214 3219.964)
+        )
+        (keepout 
+            (path signal 5.905 3560.214 3219.964 3552.797 3238.480)
+        )
+        (keepout 
+            (path signal 5.905 3552.797 3238.480 3540.965 3254.538)
+        )
+        (keepout 
+            (path signal 5.905 3540.965 3254.538 3525.478 3267.108)
+        )
+        (keepout 
+            (path signal 5.905 3525.478 3267.108 3507.329 3275.383)
+        )
+        (keepout 
+            (path signal 5.905 3507.329 3275.383 3487.683 3278.832)
+        )
+        (keepout 
+            (path signal 5.905 3487.683 3278.832 3467.801 3277.234)
+        )
+        (keepout 
+            (path signal 5.905 3467.801 3277.234 3448.959 3270.691)
+        )
+        (keepout 
+            (path signal 5.905 3448.959 3270.691 3432.364 3259.624)
+        )
+        (keepout 
+            (path signal 5.905 3432.364 3259.624 3419.084 3244.742)
+        )
+        (keepout 
+            (path signal 5.905 3419.084 3244.742 3409.969 3227.000)
+        )
+        (keepout 
+            (path signal 5.905 3409.969 3227.000 3405.604 3207.537)
+        )
+        (keepout 
+            (path signal 5.905 3405.604 3207.537 3406.271 3187.602)
+        )
+        (keepout 
+            (path signal 5.905 3406.271 3187.602 3411.925 3168.474)
+        )
+        (keepout 
+            (path signal 5.905 3411.925 3168.474 3422.204 3151.380)
+        )
+        (keepout 
+            (path signal 5.905 3422.204 3151.380 3436.448 3137.418)
+        )
+        (keepout 
+            (path signal 5.905 3436.448 3137.418 3453.744 3127.483)
+        )
+        (keepout 
+            (path signal 5.905 3453.744 3127.483 3472.982 3122.213)
+        )
+        (keepout 
+            (path signal 5.905 3472.982 3122.213 3492.926 3121.946)
+        )
+        (keepout 
+            (path signal 5.905 3492.926 3121.946 3512.298 3126.699)
+        )
+        (keepout 
+            (path signal 5.905 3512.298 3126.699 3529.854 3136.167)
+        )
+        (keepout 
+            (path signal 5.905 3529.854 3136.167 3544.467 3149.743)
+        )
+        (keepout 
+            (path signal 5.905 3544.467 3149.743 3555.200 3166.555)
+        )
+        (keepout 
+            (path signal 5.905 3555.200 3166.555 3561.365 3185.525)
+        )
+        (keepout 
+            (path signal 5.905 3561.365 3185.525 3562.740 3200.178)
+        )
+        (keepout 
+            (path signal 5.905 3563.740 4700.178 3561.214 4719.964)
+        )
+        (keepout 
+            (path signal 5.905 3561.214 4719.964 3553.797 4738.480)
+        )
+        (keepout 
+            (path signal 5.905 3553.797 4738.480 3541.965 4754.538)
+        )
+        (keepout 
+            (path signal 5.905 3541.965 4754.538 3526.478 4767.108)
+        )
+        (keepout 
+            (path signal 5.905 3526.478 4767.108 3508.329 4775.383)
+        )
+        (keepout 
+            (path signal 5.905 3508.329 4775.383 3488.683 4778.832)
+        )
+        (keepout 
+            (path signal 5.905 3488.683 4778.832 3468.801 4777.234)
+        )
+        (keepout 
+            (path signal 5.905 3468.801 4777.234 3449.959 4770.691)
+        )
+        (keepout 
+            (path signal 5.905 3449.959 4770.691 3433.364 4759.624)
+        )
+        (keepout 
+            (path signal 5.905 3433.364 4759.624 3420.084 4744.742)
+        )
+        (keepout 
+            (path signal 5.905 3420.084 4744.742 3410.969 4727.000)
+        )
+        (keepout 
+            (path signal 5.905 3410.969 4727.000 3406.604 4707.537)
+        )
+        (keepout 
+            (path signal 5.905 3406.604 4707.537 3407.271 4687.602)
+        )
+        (keepout 
+            (path signal 5.905 3407.271 4687.602 3412.925 4668.474)
+        )
+        (keepout 
+            (path signal 5.905 3412.925 4668.474 3423.204 4651.380)
+        )
+        (keepout 
+            (path signal 5.905 3423.204 4651.380 3437.448 4637.418)
+        )
+        (keepout 
+            (path signal 5.905 3437.448 4637.418 3454.744 4627.483)
+        )
+        (keepout 
+            (path signal 5.905 3454.744 4627.483 3473.982 4622.213)
+        )
+        (keepout 
+            (path signal 5.905 3473.982 4622.213 3493.926 4621.946)
+        )
+        (keepout 
+            (path signal 5.905 3493.926 4621.946 3513.298 4626.699)
+        )
+        (keepout 
+            (path signal 5.905 3513.298 4626.699 3530.854 4636.167)
+        )
+        (keepout 
+            (path signal 5.905 3530.854 4636.167 3545.467 4649.743)
+        )
+        (keepout 
+            (path signal 5.905 3545.467 4649.743 3556.200 4666.555)
+        )
+        (keepout 
+            (path signal 5.905 3556.200 4666.555 3562.365 4685.525)
+        )
+        (keepout 
+            (path signal 5.905 3562.365 4685.525 3563.740 4700.178)
+        )
+        (keepout 
+            (path signal 5.905 2413.740 4700.178 2411.214 4719.964)
+        )
+        (keepout 
+            (path signal 5.905 2411.214 4719.964 2403.797 4738.480)
+        )
+        (keepout 
+            (path signal 5.905 2403.797 4738.480 2391.965 4754.538)
+        )
+        (keepout 
+            (path signal 5.905 2391.965 4754.538 2376.478 4767.108)
+        )
+        (keepout 
+            (path signal 5.905 2376.478 4767.108 2358.329 4775.383)
+        )
+        (keepout 
+            (path signal 5.905 2358.329 4775.383 2338.683 4778.832)
+        )
+        (keepout 
+            (path signal 5.905 2338.683 4778.832 2318.801 4777.234)
+        )
+        (keepout 
+            (path signal 5.905 2318.801 4777.234 2299.959 4770.691)
+        )
+        (keepout 
+            (path signal 5.905 2299.959 4770.691 2283.364 4759.624)
+        )
+        (keepout 
+            (path signal 5.905 2283.364 4759.624 2270.084 4744.742)
+        )
+        (keepout 
+            (path signal 5.905 2270.084 4744.742 2260.969 4727.000)
+        )
+        (keepout 
+            (path signal 5.905 2260.969 4727.000 2256.604 4707.537)
+        )
+        (keepout 
+            (path signal 5.905 2256.604 4707.537 2257.271 4687.602)
+        )
+        (keepout 
+            (path signal 5.905 2257.271 4687.602 2262.925 4668.474)
+        )
+        (keepout 
+            (path signal 5.905 2262.925 4668.474 2273.204 4651.380)
+        )
+        (keepout 
+            (path signal 5.905 2273.204 4651.380 2287.448 4637.418)
+        )
+        (keepout 
+            (path signal 5.905 2287.448 4637.418 2304.744 4627.483)
+        )
+        (keepout 
+            (path signal 5.905 2304.744 4627.483 2323.982 4622.213)
+        )
+        (keepout 
+            (path signal 5.905 2323.982 4622.213 2343.926 4621.946)
+        )
+        (keepout 
+            (path signal 5.905 2343.926 4621.946 2363.298 4626.699)
+        )
+        (keepout 
+            (path signal 5.905 2363.298 4626.699 2380.854 4636.167)
+        )
+        (keepout 
+            (path signal 5.905 2380.854 4636.167 2395.467 4649.743)
+        )
+        (keepout 
+            (path signal 5.905 2395.467 4649.743 2406.200 4666.555)
+        )
+        (keepout 
+            (path signal 5.905 2406.200 4666.555 2412.365 4685.525)
+        )
+        (keepout 
+            (path signal 5.905 2412.365 4685.525 2413.740 4700.178)
+        )
+        (keepout 
+            (path signal 5.905 2413.740 3200.178 2411.214 3219.964)
+        )
+        (keepout 
+            (path signal 5.905 2411.214 3219.964 2403.797 3238.480)
+        )
+        (keepout 
+            (path signal 5.905 2403.797 3238.480 2391.965 3254.538)
+        )
+        (keepout 
+            (path signal 5.905 2391.965 3254.538 2376.478 3267.108)
+        )
+        (keepout 
+            (path signal 5.905 2376.478 3267.108 2358.329 3275.383)
+        )
+        (keepout 
+            (path signal 5.905 2358.329 3275.383 2338.683 3278.832)
+        )
+        (keepout 
+            (path signal 5.905 2338.683 3278.832 2318.801 3277.234)
+        )
+        (keepout 
+            (path signal 5.905 2318.801 3277.234 2299.959 3270.691)
+        )
+        (keepout 
+            (path signal 5.905 2299.959 3270.691 2283.364 3259.624)
+        )
+        (keepout 
+            (path signal 5.905 2283.364 3259.624 2270.084 3244.742)
+        )
+        (keepout 
+            (path signal 5.905 2270.084 3244.742 2260.969 3227.000)
+        )
+        (keepout 
+            (path signal 5.905 2260.969 3227.000 2256.604 3207.537)
+        )
+        (keepout 
+            (path signal 5.905 2256.604 3207.537 2257.271 3187.602)
+        )
+        (keepout 
+            (path signal 5.905 2257.271 3187.602 2262.925 3168.474)
+        )
+        (keepout 
+            (path signal 5.905 2262.925 3168.474 2273.204 3151.380)
+        )
+        (keepout 
+            (path signal 5.905 2273.204 3151.380 2287.448 3137.418)
+        )
+        (keepout 
+            (path signal 5.905 2287.448 3137.418 2304.744 3127.483)
+        )
+        (keepout 
+            (path signal 5.905 2304.744 3127.483 2323.982 3122.213)
+        )
+        (keepout 
+            (path signal 5.905 2323.982 3122.213 2343.926 3121.946)
+        )
+        (keepout 
+            (path signal 5.905 2343.926 3121.946 2363.298 3126.699)
+        )
+        (keepout 
+            (path signal 5.905 2363.298 3126.699 2380.854 3136.167)
+        )
+        (keepout 
+            (path signal 5.905 2380.854 3136.167 2395.467 3149.743)
+        )
+        (keepout 
+            (path signal 5.905 2395.467 3149.743 2406.200 3166.555)
+        )
+        (keepout 
+            (path signal 5.905 2406.200 3166.555 2412.365 3185.525)
+        )
+        (keepout 
+            (path signal 5.905 2412.365 3185.525 2413.740 3200.178)
+        )
+        (grid wire 0.984)
+        (grid via 0.984)
+    )
+    (placement
+        (component MOLEX-705430001_JP4
+            (place JP4 2499.999 3690.178 front 0))
+        (component 0603_CAP_C8
+            (place C8 2599.999 3545.178 front 0))
+        (component 0603_CAP_C7
+            (place C7 2799.999 3420.178 front 0))
+        (component ML10-FCI_JP3
+            (place JP3 3054.999 3630.178 front 0))
+        (component ML10-FCI_JP2
+            (place JP2 3014.999 3280.178 front 0))
+        (component 0603_res_R1
+            (place R1 2524.999 3310.178 front 0))
+        (component 0603_LED_RED_LD4
+            (place LD4 2424.999 3405.178 front 0))
+        (component 0603_LED_RED_LD3
+            (place LD3 2474.999 3405.178 front 0))
+        (component 0603_LED_RED_LD2
+            (place LD2 2574.999 3405.178 front 0))
+        (component 0603_LED_RED_LD1
+            (place LD1 2524.999 3405.178 front 0))
+        (component N-GMS_B1
+            (place B1 2310.000 4700.178 front 0))
+        (component 0603_res_R4
+            (place R4 2424.999 3310.178 front 0))
+        (component 0603_res_R3
+            (place R3 2474.999 3310.178 front 0))
+        (component 0603_res_R2
+            (place R2 2574.999 3310.178 front 0))
+        (component TQFP100_U1
+            (place U1 3239.527 4400.178 front 0))
+        (component ML10_JP1
+            (place JP1 3004.999 4630.178 front 0))
+        (component 0603_CAP_C10
+            (place C10 3034.999 4480.178 front 0))
+        (component 0603_CAP_C9
+            (place C9 3339.999 4085.178 front 0))
+        (component 0603_CAP_C5
+            (place C5 2509.999 4340.178 front 0))
+        (component 0603_CAP_C4
+            (place C4 2509.999 4005.178 front 0))
+        (component 0603_CAP_C3
+            (place C3 2784.999 3670.178 front 0))
+        (component 0603_CAP_C2
+            (place C2 2759.999 4480.178 front 0))
+        (component 0603_CAP_C1
+            (place C1 2509.999 4085.178 front 0))
+        (component SOT-223_U2
+            (place U2 2599.999 3295.178 front 0))
+        (component 0603_CAP_C6
+            (place C6 3234.999 3745.178 front 0))
+        (component 0603_RES_R26
+            (place R26 2444.999 3400.178 front 0))
+        (component 0603_RES_R27
+            (place R27 2394.999 3400.178 front 0))
+    )
+    (library
+        (image MOLEX-705430001_JP4
+            (pin Pad10 1 0.000 0.000  (rotate 270))
+            (pin Pad10 2 0.000 -100.000  (rotate 270))
+        )
+        (image 0603_CAP_C8
+            (pin Pad2 1 0.000 -26.000  (rotate 90))
+            (pin Pad2 2 0.000 27.000  (rotate 90))
+        )
+        (image 0603_CAP_C7
+            (pin Pad3 1 -26.000 0.000 )
+            (pin Pad3 2 27.000 0.000 )
+        )
+        (image ML10-FCI_JP3
+            (pin Pad13 1 -200.000 -50.000 )
+            (pin Pad12 2 -200.000 50.000 )
+            (pin Pad11 3 -100.000 -50.000 )
+            (pin Pad11 4 -100.000 50.000 )
+            (pin Pad11 5 0.000 -50.000 )
+            (pin Pad11 6 0.000 50.000 )
+            (pin Pad11 7 100.000 -50.000 )
+            (pin Pad11 8 100.000 50.000 )
+            (pin Pad11 9 200.000 -50.000 )
+            (pin Pad11 10 200.000 50.000 )
+        )
+        (image ML10-FCI_JP2
+            (pin Pad13 1 -200.000 -50.000 )
+            (pin Pad12 2 -200.000 50.000 )
+            (pin Pad11 3 -100.000 -50.000 )
+            (pin Pad11 4 -100.000 50.000 )
+            (pin Pad11 5 0.000 -50.000 )
+            (pin Pad11 6 0.000 50.000 )
+            (pin Pad11 7 100.000 -50.000 )
+            (pin Pad11 8 100.000 50.000 )
+            (pin Pad11 9 200.000 -50.000 )
+            (pin Pad11 10 200.000 50.000 )
+        )
+        (image 0603_res_R1
+            (pin Pad1 2 0.000 -27.000  (rotate 270))
+            (pin Pad1 1 0.000 26.000  (rotate 270))
+        )
+        (image 0603_LED_RED_LD4
+            (pin Pad1 2 0.000 -27.000  (rotate 270))
+            (pin Pad1 1 0.000 26.000  (rotate 270))
+        )
+        (image 0603_LED_RED_LD3
+            (pin Pad1 2 0.000 -27.000  (rotate 270))
+            (pin Pad1 1 0.000 26.000  (rotate 270))
+        )
+        (image 0603_LED_RED_LD2
+            (pin Pad1 2 0.000 -27.000  (rotate 270))
+            (pin Pad1 1 0.000 26.000  (rotate 270))
+        )
+        (image 0603_LED_RED_LD1
+            (pin Pad1 2 0.000 -27.000  (rotate 270))
+            (pin Pad1 1 0.000 26.000  (rotate 270))
+        )
+        (image N-GMS_B1
+            (pin Pad16 1 0.000 -200.000  (rotate 270))
+            (keepout (circle signal 39.370 25.000 -1500.000))
+            (keepout (circle signal 39.370 1174.000 -1500.000))
+            (keepout (circle signal 39.370 25.000 0.000))
+            (keepout (circle signal 39.370 1175.000 0.000))
+            (pin Pad15 2 0.000 -300.000  (rotate 270))
+            (pin Pad14 3 0.000 -400.000  (rotate 270))
+            (pin Pad14 4 0.000 -500.000  (rotate 270))
+            (pin Pad14 5 0.000 -600.000  (rotate 270))
+            (pin Pad14 6 0.000 -700.000  (rotate 270))
+            (pin Pad14 7 0.000 -800.000  (rotate 270))
+            (pin Pad14 8 0.000 -900.000  (rotate 270))
+            (pin Pad14 9 0.000 -1000.000  (rotate 270))
+            (pin Pad14 10 0.000 -1100.000  (rotate 270))
+            (pin Pad14 11 0.000 -1200.000  (rotate 270))
+            (pin Pad14 12 0.000 -1300.000  (rotate 270))
+            (pin Pad16 24 1200.000 -200.000  (rotate 270))
+            (pin Pad15 23 1200.000 -300.000  (rotate 270))
+            (pin Pad14 22 1200.000 -400.000  (rotate 270))
+            (pin Pad14 21 1200.000 -500.000  (rotate 270))
+            (pin Pad14 20 1200.000 -600.000  (rotate 270))
+            (pin Pad14 19 1200.000 -700.000  (rotate 270))
+            (pin Pad14 18 1200.000 -800.000  (rotate 270))
+            (pin Pad14 17 1200.000 -900.000  (rotate 270))
+            (pin Pad14 16 1200.000 -1000.000  (rotate 270))
+            (pin Pad14 15 1200.000 -1100.000  (rotate 270))
+            (pin Pad14 14 1200.000 -1200.000  (rotate 270))
+            (pin Pad14 13 1200.000 -1300.000  (rotate 270))
+        )
+        (image 0603_res_R4
+            (pin Pad1 2 0.000 -27.000  (rotate 270))
+            (pin Pad1 1 0.000 26.000  (rotate 270))
+        )
+        (image 0603_res_R3
+            (pin Pad1 2 0.000 -27.000  (rotate 270))
+            (pin Pad1 1 0.000 26.000  (rotate 270))
+        )
+        (image 0603_res_R2
+            (pin Pad1 2 0.000 -27.000  (rotate 270))
+            (pin Pad1 1 0.000 26.000  (rotate 270))
+        )
+        (image TQFP100_U1
+            (pin Pad7 100 -78.543 0.003  (rotate 270))
+            (pin Pad7 99 -98.224 0.003  (rotate 270))
+            (pin Pad7 98 -117.913 0.003  (rotate 270))
+            (pin Pad7 97 -137.594 0.003  (rotate 270))
+            (pin Pad7 96 -157.283 0.003  (rotate 270))
+            (pin Pad7 95 -176.964 0.003  (rotate 270))
+            (pin Pad7 94 -196.653 0.003  (rotate 270))
+            (pin Pad7 93 -216.334 0.003  (rotate 270))
+            (pin Pad7 92 -236.023 0.003  (rotate 270))
+            (pin Pad7 91 -255.704 0.003  (rotate 270))
+            (pin Pad7 90 -275.393 0.003  (rotate 270))
+            (pin Pad7 89 -295.074 0.003  (rotate 270))
+            (pin Pad7 88 -314.763 0.003  (rotate 270))
+            (pin Pad7 87 -334.452 0.003  (rotate 270))
+            (pin Pad7 86 -354.133 0.003  (rotate 270))
+            (pin Pad7 85 -373.822 0.003  (rotate 270))
+            (pin Pad7 84 -393.503 0.003  (rotate 270))
+            (pin Pad7 83 -413.192 0.003  (rotate 270))
+            (pin Pad7 82 -432.874 0.003  (rotate 270))
+            (pin Pad7 81 -452.562 0.003  (rotate 270))
+            (pin Pad7 80 -472.244 0.003  (rotate 270))
+            (pin Pad7 79 -491.933 0.003  (rotate 270))
+            (pin Pad7 78 -511.614 0.003  (rotate 270))
+            (pin Pad7 77 -531.303 0.003  (rotate 270))
+            (pin Pad7 76 -550.984 0.003  (rotate 270))
+            (pin Pad6 75 -629.728 -78.740  (rotate 270))
+            (pin Pad6 74 -629.728 -98.421  (rotate 270))
+            (pin Pad6 73 -629.728 -118.110  (rotate 270))
+            (pin Pad6 72 -629.728 -137.791  (rotate 270))
+            (pin Pad6 71 -629.728 -157.480  (rotate 270))
+            (pin Pad6 70 -629.728 -177.161  (rotate 270))
+            (pin Pad6 69 -629.728 -196.850  (rotate 270))
+            (pin Pad6 68 -629.728 -216.531  (rotate 270))
+            (pin Pad6 67 -629.728 -236.220  (rotate 270))
+            (pin Pad6 66 -629.728 -255.901  (rotate 270))
+            (pin Pad6 65 -629.728 -275.590  (rotate 270))
+            (pin Pad6 64 -629.728 -295.271  (rotate 270))
+            (pin Pad6 63 -629.728 -314.960  (rotate 270))
+            (pin Pad6 62 -629.728 -334.649  (rotate 270))
+            (pin Pad6 61 -629.728 -354.330  (rotate 270))
+            (pin Pad6 60 -629.728 -374.019  (rotate 270))
+            (pin Pad6 59 -629.728 -393.700  (rotate 270))
+            (pin Pad6 58 -629.728 -413.389  (rotate 270))
+            (pin Pad6 57 -629.728 -433.070  (rotate 270))
+            (pin Pad6 56 -629.728 -452.759  (rotate 270))
+            (pin Pad6 55 -629.728 -472.440  (rotate 270))
+            (pin Pad6 54 -629.728 -492.129  (rotate 270))
+            (pin Pad6 53 -629.728 -511.811  (rotate 270))
+            (pin Pad6 52 -629.728 -531.500  (rotate 270))
+            (pin Pad6 51 -629.728 -551.181  (rotate 270))
+            (pin Pad7 50 -550.984 -629.925  (rotate 270))
+            (pin Pad7 49 -531.303 -629.925  (rotate 270))
+            (pin Pad7 48 -511.614 -629.925  (rotate 270))
+            (pin Pad7 47 -491.933 -629.925  (rotate 270))
+            (pin Pad7 46 -472.244 -629.925  (rotate 270))
+            (pin Pad7 45 -452.562 -629.925  (rotate 270))
+            (pin Pad7 44 -432.874 -629.925  (rotate 270))
+            (pin Pad7 43 -413.192 -629.925  (rotate 270))
+            (pin Pad7 42 -393.503 -629.925  (rotate 270))
+            (pin Pad7 41 -373.822 -629.925  (rotate 270))
+            (pin Pad7 40 -354.133 -629.925  (rotate 270))
+            (pin Pad7 39 -334.452 -629.925  (rotate 270))
+            (pin Pad7 38 -314.763 -629.925  (rotate 270))
+            (pin Pad7 37 -295.074 -629.925  (rotate 270))
+            (pin Pad7 36 -275.393 -629.925  (rotate 270))
+            (pin Pad7 35 -255.704 -629.925  (rotate 270))
+            (pin Pad7 34 -236.023 -629.925  (rotate 270))
+            (pin Pad7 33 -216.334 -629.925  (rotate 270))
+            (pin Pad7 32 -196.653 -629.925  (rotate 270))
+            (pin Pad7 31 -176.964 -629.925  (rotate 270))
+            (pin Pad7 30 -157.283 -629.925  (rotate 270))
+            (pin Pad7 29 -137.594 -629.925  (rotate 270))
+            (pin Pad7 28 -117.913 -629.925  (rotate 270))
+            (pin Pad7 27 -98.224 -629.925  (rotate 270))
+            (pin Pad7 26 -78.543 -629.925  (rotate 270))
+            (pin Pad6 25 0.200 -551.181  (rotate 270))
+            (pin Pad6 24 0.200 -531.500  (rotate 270))
+            (pin Pad6 23 0.200 -511.811  (rotate 270))
+            (pin Pad6 22 0.200 -492.129  (rotate 270))
+            (pin Pad6 21 0.200 -472.440  (rotate 270))
+            (pin Pad6 20 0.200 -452.759  (rotate 270))
+            (pin Pad6 19 0.200 -433.070  (rotate 270))
+            (pin Pad6 18 0.200 -413.389  (rotate 270))
+            (pin Pad6 17 0.200 -393.700  (rotate 270))
+            (pin Pad6 16 0.200 -374.019  (rotate 270))
+            (pin Pad6 15 0.200 -354.330  (rotate 270))
+            (pin Pad6 14 0.200 -334.649  (rotate 270))
+            (pin Pad6 13 0.200 -314.960  (rotate 270))
+            (pin Pad6 12 0.200 -295.271  (rotate 270))
+            (pin Pad6 11 0.200 -275.590  (rotate 270))
+            (pin Pad6 10 0.200 -255.901  (rotate 270))
+            (pin Pad6 9 0.200 -236.220  (rotate 270))
+            (pin Pad6 8 0.200 -216.531  (rotate 270))
+            (pin Pad6 7 0.200 -196.850  (rotate 270))
+            (pin Pad6 6 0.200 -177.161  (rotate 270))
+            (pin Pad6 5 0.200 -157.480  (rotate 270))
+            (pin Pad6 4 0.200 -137.791  (rotate 270))
+            (pin Pad6 3 0.200 -118.110  (rotate 270))
+            (pin Pad6 2 0.200 -98.421  (rotate 270))
+            (pin Pad6 1 0.200 -78.740  (rotate 270))
+        )
+        (image ML10_JP1
+            (pin Pad21 1 200.000 50.000 )
+            (pin Pad18 2 200.000 -50.000 )
+            (pin Pad19 3 100.000 50.000 )
+            (pin Pad20 4 100.000 -50.000 )
+            (pin Pad19 5 0.000 50.000 )
+            (pin Pad19 6 0.000 -50.000 )
+            (pin Pad19 7 -100.000 50.000 )
+            (pin Pad19 8 -100.000 -50.000 )
+            (pin Pad19 9 -200.000 50.000 )
+            (pin Pad18 10 -200.000 -50.000 )
+        )
+        (image 0603_CAP_C10
+            (pin Pad4 1 26.000 0.000 )
+            (pin Pad4 2 -27.000 0.000 )
+        )
+        (image 0603_CAP_C9
+            (pin Pad3 1 -26.000 0.000 )
+            (pin Pad3 2 27.000 0.000 )
+        )
+        (image 0603_CAP_C5
+            (pin Pad5 1 0.000 26.000  (rotate 270))
+            (pin Pad5 2 0.000 -27.000  (rotate 270))
+        )
+        (image 0603_CAP_C4
+            (pin Pad4 1 26.000 0.000 )
+            (pin Pad4 2 -27.000 0.000 )
+        )
+        (image 0603_CAP_C3
+            (pin Pad5 1 0.000 26.000  (rotate 270))
+            (pin Pad5 2 0.000 -27.000  (rotate 270))
+        )
+        (image 0603_CAP_C2
+            (pin Pad4 1 26.000 0.000 )
+            (pin Pad4 2 -27.000 0.000 )
+        )
+        (image 0603_CAP_C1
+            (pin Pad4 1 26.000 0.000 )
+            (pin Pad4 2 -27.000 0.000 )
+        )
+        (image SOT-223_U2
+            (pin Pad9 1 -89.000 124.000 )
+            (pin Pad9 2 1.000 124.000 )
+            (pin Pad9 3 91.000 124.000 )
+            (pin Pad8 4 0.000 -124.000 )
+        )
+        (image 0603_CAP_C6
+            (pin Pad3 1 -26.000 0.000 )
+            (pin Pad3 2 27.000 0.000 )
+        )
+        (image 0603_RES_R26
+            (pin Pad2 2 0.000 27.000  (rotate 90))
+            (pin Pad2 1 0.000 -26.000  (rotate 90))
+        )
+        (image 0603_RES_R27
+            (pin Pad2 2 0.000 27.000  (rotate 90))
+            (pin Pad2 1 0.000 -26.000  (rotate 90))
+        )
+        (padstack Via0_TB_RoutingVias
+            (shape (circle signal 19.685))
+        )
+        (padstack Pad1
+            (shape (rect TopLayer -11.811 -15.748 11.811 15.748))
+        )
+        (padstack Pad2
+            (shape (rect BottomLayer -11.811 -15.748 11.811 15.748))
+        )
+        (padstack Pad3
+            (shape (rect BottomLayer -11.811 -15.748 11.811 15.748))
+        )
+        (padstack Pad4
+            (shape (rect BottomLayer -11.811 -15.748 11.811 15.748))
+        )
+        (padstack Pad5
+            (shape (rect BottomLayer -11.811 -15.748 11.811 15.748))
+        )
+        (padstack Pad6
+            (shape (rect BottomLayer -4.917 -23.618 4.917 23.618))
+        )
+        (padstack Pad7
+            (shape (rect BottomLayer -23.618 -4.917 23.618 4.917))
+        )
+        (padstack Pad8
+            (shape (rect BottomLayer -75.000 -39.500 75.000 39.500))
+        )
+        (padstack Pad9
+            (shape (rect BottomLayer -29.500 -39.500 29.500 39.500))
+        )
+        (padstack Pad10
+            (shape (circle signal 55.118))
+        )
+        (padstack Pad11
+            (shape (circle signal 55.118))
+        )
+        (padstack Pad12
+            (shape (circle signal 55.118))
+        )
+        (padstack Pad13
+            (shape (circle signal 55.118))
+        )
+        (padstack Pad14
+            (shape (circle signal 63.000))
+        )
+        (padstack Pad15
+            (shape (circle signal 63.000))
+        )
+        (padstack Pad16
+            (shape (circle signal 63.000))
+        )
+        (padstack Pad17
+            (shape (circle signal 39.370))
+        )
+        (padstack Pad18
+            (shape (circle signal 63.000))
+        )
+        (padstack Pad19
+            (shape (circle signal 63.000))
+        )
+        (padstack Pad20
+            (shape (circle signal 63.000))
+        )
+        (padstack Pad21
+            (shape (circle signal 63.000))
+        )
+    )
+    (network
+        (net 30
+            (pins
+                U1-50 JP3-9 
+            )
+            (circuit 
+            )
+        )
+        (net NetLD4_2
+            (pins
+                R4-1 LD4-2 
+            )
+            (circuit 
+            )
+        )
+        (net NetLD3_2
+            (pins
+                R3-1 LD3-2 
+            )
+            (circuit 
+            )
+        )
+        (net NetLD2_2
+            (pins
+                R2-1 LD2-2 
+            )
+            (circuit 
+            )
+        )
+        (net NetLD1_2
+            (pins
+                R1-1 LD1-2 
+            )
+            (circuit 
+            )
+        )
+        (net 22
+            (pins
+                U1-40 JP2-9 
+            )
+            (circuit 
+            )
+        )
+        (net 23
+            (pins
+                U1-41 JP2-10 
+            )
+            (circuit 
+            )
+        )
+        (net 24
+            (pins
+                U1-42 JP2-8 
+            )
+            (circuit 
+            )
+        )
+        (net 25
+            (pins
+                U1-43 JP2-6 
+            )
+            (circuit 
+            )
+        )
+        (net 26
+            (pins
+                U1-44 JP2-4 
+            )
+            (circuit 
+            )
+        )
+        (net 27
+            (pins
+                U1-47 JP3-3 
+            )
+            (circuit 
+            )
+        )
+        (net 28
+            (pins
+                U1-48 JP3-5 
+            )
+            (circuit 
+            )
+        )
+        (net 29
+            (pins
+                U1-49 JP3-7 
+            )
+            (circuit 
+            )
+        )
+        (net 18
+            (pins
+                U1-30 B1-22 
+            )
+            (circuit 
+            )
+        )
+        (net 19
+            (pins
+                JP2-3 U1-33 
+            )
+            (circuit 
+            )
+        )
+        (net 20
+            (pins
+                JP2-5 U1-34 
+            )
+            (circuit 
+            )
+        )
+        (net 21
+            (pins
+                U1-35 JP2-7 
+            )
+            (circuit 
+            )
+        )
+        (net LED3
+            (pins
+                LD4-1 U1-36 
+            )
+            (circuit 
+            )
+        )
+        (net LED2
+            (pins
+                LD3-1 U1-87 
+            )
+            (circuit 
+            )
+        )
+        (net LED1
+            (pins
+                LD2-1 U1-38 
+            )
+            (circuit 
+            )
+        )
+        (net LED0
+            (pins
+                LD1-1 U1-86 
+            )
+            (circuit 
+            )
+        )
+        (net 5V
+            (pins
+                B1-12 U2-3 B1-13 C7-1 
+            )
+            (circuit 
+            )
+        )
+        (net 17
+            (pins
+                U1-29 B1-21 
+            )
+            (circuit 
+            )
+        )
+        (net 16
+            (pins
+                U1-28 B1-20 
+            )
+            (circuit 
+            )
+        )
+        (net 15
+            (pins
+                U1-27 B1-19 
+            )
+            (circuit 
+            )
+        )
+        (net 14
+            (pins
+                U1-26 B1-18 
+            )
+            (circuit 
+            )
+        )
+        (net 13
+            (pins
+                U1-21 B1-17 
+            )
+            (circuit 
+            )
+        )
+        (net TMS
+            (pins
+                JP1-5 U1-22 
+            )
+            (circuit 
+            )
+        )
+        (net TDO
+            (pins
+                JP1-3 U1-25 
+            )
+            (circuit 
+            )
+        )
+        (net TDI
+            (pins
+                JP1-9 U1-23 
+            )
+            (circuit 
+            )
+        )
+        (net CLK
+            (pins
+                JP1-1 U1-24 
+            )
+            (circuit 
+            )
+        )
+        (net 31
+            (pins
+                U1-51 JP3-10 
+            )
+            (circuit 
+            )
+        )
+        (net 32
+            (pins
+                U1-52 JP3-8 
+            )
+            (circuit 
+            )
+        )
+        (net 3.3V
+            (pins
+                R26-1 C4-1 U2-2 JP2-1 C8-1 U1-59 C3-1 
+                C1-1 B1-1 C5-1 U1-63 U1-80 C2-1 JP3-1 U1-45 
+                U1-39 C6-1 U1-31 C9-1 U1-90 U1-94 C10-1 U1-13 
+                JP1-4 U1-9 B1-24 
+            )
+            (circuit 
+            )
+        )
+        (net 33
+            (pins
+                U1-53 JP3-6 
+            )
+            (circuit 
+            )
+        )
+        (net 34
+            (pins
+                U1-54 JP3-4 
+            )
+            (circuit 
+            )
+        )
+        (net 10
+            (pins
+                U1-17 B1-14 
+            )
+            (circuit 
+            )
+        )
+        (net 11
+            (pins
+                U1-19 B1-15 
+            )
+            (circuit 
+            )
+        )
+        (net 12
+            (pins
+                U1-20 B1-16 
+            )
+            (circuit 
+            )
+        )
+        (net 1
+            (pins
+                B1-3 U1-2 
+            )
+            (circuit 
+            )
+        )
+        (net 2
+            (pins
+                B1-4 U1-3 
+            )
+            (circuit 
+            )
+        )
+        (net 3
+            (pins
+                B1-5 U1-4 
+            )
+            (circuit 
+            )
+        )
+        (net 4
+            (pins
+                B1-6 U1-5 
+            )
+            (circuit 
+            )
+        )
+        (net 5
+            (pins
+                B1-7 U1-6 
+            )
+            (circuit 
+            )
+        )
+        (net 6
+            (pins
+                B1-8 U1-7 
+            )
+            (circuit 
+            )
+        )
+        (net 7
+            (pins
+                B1-9 U1-8 
+            )
+            (circuit 
+            )
+        )
+        (net 8
+            (pins
+                B1-10 U1-12 
+            )
+            (circuit 
+            )
+        )
+        (net 9
+            (pins
+                B1-11 U1-15 
+            )
+            (circuit 
+            )
+        )
+        (net GND
+            (pins
+                R4-2 R3-2 R27-1 C4-2 R1-2 R2-2 C8-2 
+                C1-2 B1-2 C5-2 U1-65 U1-79 C2-2 JP1-10 C3-2 
+                C7-2 U1-46 JP2-2 JP3-2 C6-2 U1-32 U1-37 U1-88 
+                C10-2 U1-93 U1-11 C9-2 U1-10 JP1-2 B1-23 
+            )
+            (circuit 
+            )
+        )
+        (net NetR26_2
+            (pins
+                R27-2 U2-1 R26-2 
+            )
+            (circuit 
+            )
+        )
+    )
+    (wiring
+    )
+)

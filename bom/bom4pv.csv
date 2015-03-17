@@ -1,0 +1,14 @@
+CODE,Quantity,Designator,Comment
+
+"","1","B1","N-GMS-CONNECTORS"
+"","8","C1, C2, C3, C4, C5, C6, C9, C10","100nF"
+"","2","C7, C8","10uF/MLCC"
+"","1","JP1","Header 5X2"
+"825-030","2","JP2, JP3","Header 5X2"
+"822-010","1","JP4","Header 2"
+"","4","LD1, LD2, LD3, LD4","LED"
+"","4","R1, R2, R3, R4","1K"
+"","1","R26","240R 1%"
+"","1","R27","390R 1%"
+"","1","U1","EPM240T100"
+"","1","U2","LM1117MPX-ADJ"

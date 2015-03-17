@@ -1,0 +1,14 @@
+Quantity,Comment,Description,Footprint,Designator
+
+"1","N-GMS-CONNECTORS","","N-GMS","B1"
+"8","100nF","CAPACITOR","0603_CAP","C1, C2, C3, C4, C5, C6, C9, C10"
+"2","10uF/MLCC","CAPACITOR","0603_CAP","C7, C8"
+"1","Header 5X2","Header, 5-Pin, Dual row","ML10","JP1"
+"2","Header 5X2","Header, 5-Pin, Dual row","ML10-FCI","JP2, JP3"
+"1","Header 2","Header, 2-Pin","MOLEX-705430001","JP4"
+"4","LED","","0603_LED_RED","LD1, LD2, LD3, LD4"
+"4","1K","RESISTOR","0603_res","R1, R2, R3, R4"
+"1","240R 1%","RESISTOR","0603_RES","R26"
+"1","390R 1%","RESISTOR","0603_RES","R27"
+"1","EPM240T100","","TQFP100","U1"
+"1","LM1117MPX-ADJ","REGULATOR LOW DROPOUT","SOT-223","U2"

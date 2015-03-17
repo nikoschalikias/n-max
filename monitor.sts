@@ -1,0 +1,8 @@
+#SPECCTRA ShapeBased Automation Software V15.1 made 2003/11/17 at 23:03:32
+#Host 
+#ROUTING STATUS <<< .\N-MAX.dsn >>>
+Start  Time: Report Time: Tue Mar 17 13:55:27 2015
+
+Nets         =       50   Connections         =       96
+Current Wire =        0   Reroute wires       =        0
+Completion   =    0.00%   Unconnections       =       96
