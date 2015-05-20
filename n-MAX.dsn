@@ -1,9 +1,9 @@
-(pcb n-MAX.dsn
+(pcb n-MAX.PcbDoc
     (resolution MIL 10000)
     (structure
         (boundary
             (rect pcb
-                1840.157 2490.178 3689.055 4871.360
+                2172.756 2490.178 3689.055 4872.950
             )
         )
         (boundary
@@ -48,6 +48,14 @@
                 2280.097 4780.081
                 3539.903 4780.081
                 3539.903 3120.275
+            )
+        )
+        (region n-MAX
+            (polygon SIGNAL 0.00 
+                3604.999 3075.178
+                2259.999 3075.178
+                2259.999 2490.178
+                3604.999 2490.178
             )
         )
         (keepout 
@@ -350,20 +358,20 @@
         (keepout 
             (path signal 5.905 2412.365 3185.525 2413.740 3200.178)
         )
-        (grid wire 0.984)
-        (grid via 0.984)
+        (grid wire 20.000)
+        (grid via 20.000)
     )
     (placement
         (component MOLEX-705430001_JP4
-            (place JP4 2499.999 3690.178 front 0))
+            (place JP4 2518.858 3576.556 front 0))
         (component 0603_CAP_C8
             (place C8 2599.999 3545.178 front 0))
         (component 0603_CAP_C7
             (place C7 2799.999 3420.178 front 0))
         (component ML10-FCI_JP3
-            (place JP3 3054.999 3630.178 front 0))
+            (place JP3 3017.873 3613.957 front 0))
         (component ML10-FCI_JP2
-            (place JP2 3014.999 3280.178 front 0))
+            (place JP2 3018.858 3280.296 front 0))
         (component 0603_res_R1
             (place R1 2524.999 3310.178 front 0))
         (component 0603_LED_RED_LD4
@@ -384,8 +392,6 @@
             (place R2 2574.999 3310.178 front 0))
         (component TQFP100_U1
             (place U1 3239.527 4400.178 front 0))
-        (component ML10_JP1
-            (place JP1 3004.999 4630.178 front 0))
         (component 0603_CAP_C10
             (place C10 3034.999 4480.178 front 0))
         (component 0603_CAP_C9
@@ -395,7 +401,7 @@
         (component 0603_CAP_C4
             (place C4 2509.999 4005.178 front 0))
         (component 0603_CAP_C3
-            (place C3 2784.999 3670.178 front 0))
+            (place C3 2727.519 3619.863 front 0))
         (component 0603_CAP_C2
             (place C2 2759.999 4480.178 front 0))
         (component 0603_CAP_C1
@@ -408,11 +414,13 @@
             (place R26 2444.999 3400.178 front 0))
         (component 0603_RES_R27
             (place R27 2394.999 3400.178 front 0))
+        (component ML10-FCI_JP1
+            (place JP1 3019.842 4641.516 front 0))
     )
     (library
         (image MOLEX-705430001_JP4
-            (pin Pad10 1 0.000 0.000  (rotate 270))
-            (pin Pad10 2 0.000 -100.000  (rotate 270))
+            (pin Pad17 1 0.000 0.000  (rotate 90))
+            (pin Pad17 2 0.000 100.000  (rotate 90))
         )
         (image 0603_CAP_C8
             (pin Pad2 1 0.000 -26.000  (rotate 90))
@@ -423,28 +431,28 @@
             (pin Pad3 2 27.000 0.000 )
         )
         (image ML10-FCI_JP3
-            (pin Pad13 1 -200.000 -50.000 )
-            (pin Pad12 2 -200.000 50.000 )
-            (pin Pad11 3 -100.000 -50.000 )
-            (pin Pad11 4 -100.000 50.000 )
-            (pin Pad11 5 0.000 -50.000 )
-            (pin Pad11 6 0.000 50.000 )
-            (pin Pad11 7 100.000 -50.000 )
-            (pin Pad11 8 100.000 50.000 )
-            (pin Pad11 9 200.000 -50.000 )
-            (pin Pad11 10 200.000 50.000 )
+            (pin Pad12 1 -200.000 -50.000 )
+            (pin Pad11 2 -200.000 50.000 )
+            (pin Pad10 3 -100.000 -50.000 )
+            (pin Pad10 4 -100.000 50.000 )
+            (pin Pad10 5 0.000 -50.000 )
+            (pin Pad10 6 0.000 50.000 )
+            (pin Pad10 7 100.000 -50.000 )
+            (pin Pad10 8 100.000 50.000 )
+            (pin Pad10 9 200.000 -50.000 )
+            (pin Pad10 10 200.000 50.000 )
         )
         (image ML10-FCI_JP2
-            (pin Pad13 1 -200.000 -50.000 )
-            (pin Pad12 2 -200.000 50.000 )
-            (pin Pad11 3 -100.000 -50.000 )
-            (pin Pad11 4 -100.000 50.000 )
-            (pin Pad11 5 0.000 -50.000 )
-            (pin Pad11 6 0.000 50.000 )
-            (pin Pad11 7 100.000 -50.000 )
-            (pin Pad11 8 100.000 50.000 )
-            (pin Pad11 9 200.000 -50.000 )
-            (pin Pad11 10 200.000 50.000 )
+            (pin Pad12 1 -200.000 -50.000 )
+            (pin Pad11 2 -200.000 50.000 )
+            (pin Pad10 3 -100.000 -50.000 )
+            (pin Pad10 4 -100.000 50.000 )
+            (pin Pad10 5 0.000 -50.000 )
+            (pin Pad10 6 0.000 50.000 )
+            (pin Pad10 7 100.000 -50.000 )
+            (pin Pad10 8 100.000 50.000 )
+            (pin Pad10 9 200.000 -50.000 )
+            (pin Pad10 10 200.000 50.000 )
         )
         (image 0603_res_R1
             (pin Pad1 2 0.000 -27.000  (rotate 270))
@@ -467,34 +475,34 @@
             (pin Pad1 1 0.000 26.000  (rotate 270))
         )
         (image N-GMS_B1
-            (pin Pad16 1 0.000 -200.000  (rotate 270))
+            (pin Pad15 1 0.000 -200.000  (rotate 270))
             (keepout (circle signal 39.370 25.000 -1500.000))
             (keepout (circle signal 39.370 1174.000 -1500.000))
             (keepout (circle signal 39.370 25.000 0.000))
             (keepout (circle signal 39.370 1175.000 0.000))
-            (pin Pad15 2 0.000 -300.000  (rotate 270))
-            (pin Pad14 3 0.000 -400.000  (rotate 270))
-            (pin Pad14 4 0.000 -500.000  (rotate 270))
-            (pin Pad14 5 0.000 -600.000  (rotate 270))
-            (pin Pad14 6 0.000 -700.000  (rotate 270))
-            (pin Pad14 7 0.000 -800.000  (rotate 270))
-            (pin Pad14 8 0.000 -900.000  (rotate 270))
-            (pin Pad14 9 0.000 -1000.000  (rotate 270))
-            (pin Pad14 10 0.000 -1100.000  (rotate 270))
-            (pin Pad14 11 0.000 -1200.000  (rotate 270))
-            (pin Pad14 12 0.000 -1300.000  (rotate 270))
-            (pin Pad16 24 1200.000 -200.000  (rotate 270))
-            (pin Pad15 23 1200.000 -300.000  (rotate 270))
-            (pin Pad14 22 1200.000 -400.000  (rotate 270))
-            (pin Pad14 21 1200.000 -500.000  (rotate 270))
-            (pin Pad14 20 1200.000 -600.000  (rotate 270))
-            (pin Pad14 19 1200.000 -700.000  (rotate 270))
-            (pin Pad14 18 1200.000 -800.000  (rotate 270))
-            (pin Pad14 17 1200.000 -900.000  (rotate 270))
-            (pin Pad14 16 1200.000 -1000.000  (rotate 270))
-            (pin Pad14 15 1200.000 -1100.000  (rotate 270))
-            (pin Pad14 14 1200.000 -1200.000  (rotate 270))
-            (pin Pad14 13 1200.000 -1300.000  (rotate 270))
+            (pin Pad14 2 0.000 -300.000  (rotate 270))
+            (pin Pad13 3 0.000 -400.000  (rotate 270))
+            (pin Pad13 4 0.000 -500.000  (rotate 270))
+            (pin Pad13 5 0.000 -600.000  (rotate 270))
+            (pin Pad13 6 0.000 -700.000  (rotate 270))
+            (pin Pad13 7 0.000 -800.000  (rotate 270))
+            (pin Pad13 8 0.000 -900.000  (rotate 270))
+            (pin Pad13 9 0.000 -1000.000  (rotate 270))
+            (pin Pad13 10 0.000 -1100.000  (rotate 270))
+            (pin Pad13 11 0.000 -1200.000  (rotate 270))
+            (pin Pad13 12 0.000 -1300.000  (rotate 270))
+            (pin Pad15 24 1200.000 -200.000  (rotate 270))
+            (pin Pad14 23 1200.000 -300.000  (rotate 270))
+            (pin Pad13 22 1200.000 -400.000  (rotate 270))
+            (pin Pad13 21 1200.000 -500.000  (rotate 270))
+            (pin Pad13 20 1200.000 -600.000  (rotate 270))
+            (pin Pad13 19 1200.000 -700.000  (rotate 270))
+            (pin Pad13 18 1200.000 -800.000  (rotate 270))
+            (pin Pad13 17 1200.000 -900.000  (rotate 270))
+            (pin Pad13 16 1200.000 -1000.000  (rotate 270))
+            (pin Pad13 15 1200.000 -1100.000  (rotate 270))
+            (pin Pad13 14 1200.000 -1200.000  (rotate 270))
+            (pin Pad13 13 1200.000 -1300.000  (rotate 270))
         )
         (image 0603_res_R4
             (pin Pad1 2 0.000 -27.000  (rotate 270))
@@ -610,18 +618,6 @@
             (pin Pad6 2 0.200 -98.421  (rotate 270))
             (pin Pad6 1 0.200 -78.740  (rotate 270))
         )
-        (image ML10_JP1
-            (pin Pad21 1 200.000 50.000 )
-            (pin Pad18 2 200.000 -50.000 )
-            (pin Pad19 3 100.000 50.000 )
-            (pin Pad20 4 100.000 -50.000 )
-            (pin Pad19 5 0.000 50.000 )
-            (pin Pad19 6 0.000 -50.000 )
-            (pin Pad19 7 -100.000 50.000 )
-            (pin Pad19 8 -100.000 -50.000 )
-            (pin Pad19 9 -200.000 50.000 )
-            (pin Pad18 10 -200.000 -50.000 )
-        )
         (image 0603_CAP_C10
             (pin Pad4 1 26.000 0.000 )
             (pin Pad4 2 -27.000 0.000 )
@@ -639,8 +635,8 @@
             (pin Pad4 2 -27.000 0.000 )
         )
         (image 0603_CAP_C3
-            (pin Pad5 1 0.000 26.000  (rotate 270))
-            (pin Pad5 2 0.000 -27.000  (rotate 270))
+            (pin Pad2 1 0.000 -26.000  (rotate 90))
+            (pin Pad2 2 0.000 27.000  (rotate 90))
         )
         (image 0603_CAP_C2
             (pin Pad4 1 26.000 0.000 )
@@ -667,6 +663,18 @@
         (image 0603_RES_R27
             (pin Pad2 2 0.000 27.000  (rotate 90))
             (pin Pad2 1 0.000 -26.000  (rotate 90))
+        )
+        (image ML10-FCI_JP1
+            (pin Pad19 10 -200.000 -50.000 )
+            (pin Pad20 9 -200.000 50.000 )
+            (pin Pad20 8 -100.000 -50.000 )
+            (pin Pad20 7 -100.000 50.000 )
+            (pin Pad20 6 0.000 -50.000 )
+            (pin Pad20 5 0.000 50.000 )
+            (pin Pad21 4 100.000 -50.000 )
+            (pin Pad20 3 100.000 50.000 )
+            (pin Pad19 2 200.000 -50.000 )
+            (pin Pad18 1 200.000 50.000 )
         )
         (padstack Via0_TB_RoutingVias
             (shape (circle signal 19.685))
@@ -708,7 +716,7 @@
             (shape (circle signal 55.118))
         )
         (padstack Pad13
-            (shape (circle signal 55.118))
+            (shape (circle signal 63.000))
         )
         (padstack Pad14
             (shape (circle signal 63.000))
@@ -717,379 +725,279 @@
             (shape (circle signal 63.000))
         )
         (padstack Pad16
-            (shape (circle signal 63.000))
-        )
-        (padstack Pad17
             (shape (circle signal 39.370))
         )
+        (padstack Pad17
+            (shape (circle signal 55.118))
+        )
         (padstack Pad18
-            (shape (circle signal 63.000))
+            (shape (circle signal 55.118))
         )
         (padstack Pad19
-            (shape (circle signal 63.000))
+            (shape (circle signal 55.118))
         )
         (padstack Pad20
-            (shape (circle signal 63.000))
+            (shape (circle signal 55.118))
         )
         (padstack Pad21
-            (shape (circle signal 63.000))
+            (shape (circle signal 55.118))
         )
     )
     (network
-        (net 30
+        (net 3.3V
             (pins
                 U1-50 JP3-9 
-            )
-            (circuit 
             )
         )
         (net NetLD4_2
             (pins
-                R4-1 LD4-2 
-            )
-            (circuit 
+                LD4-2 R4-1 
             )
         )
         (net NetLD3_2
             (pins
-                R3-1 LD3-2 
-            )
-            (circuit 
+                LD3-2 R3-1 
             )
         )
         (net NetLD2_2
             (pins
-                R2-1 LD2-2 
-            )
-            (circuit 
+                LD2-2 R2-1 
             )
         )
         (net NetLD1_2
             (pins
-                R1-1 LD1-2 
-            )
-            (circuit 
+                LD1-2 R1-1 
             )
         )
         (net 22
             (pins
                 U1-40 JP2-9 
             )
-            (circuit 
-            )
         )
         (net 23
             (pins
                 U1-41 JP2-10 
-            )
-            (circuit 
             )
         )
         (net 24
             (pins
                 U1-42 JP2-8 
             )
-            (circuit 
-            )
         )
         (net 25
             (pins
                 U1-43 JP2-6 
-            )
-            (circuit 
             )
         )
         (net 26
             (pins
                 U1-44 JP2-4 
             )
-            (circuit 
-            )
         )
         (net 27
             (pins
                 U1-47 JP3-3 
-            )
-            (circuit 
             )
         )
         (net 28
             (pins
                 U1-48 JP3-5 
             )
-            (circuit 
-            )
         )
         (net 29
             (pins
                 U1-49 JP3-7 
-            )
-            (circuit 
             )
         )
         (net 18
             (pins
                 U1-30 B1-22 
             )
-            (circuit 
-            )
         )
         (net 19
             (pins
-                JP2-3 U1-33 
-            )
-            (circuit 
+                U1-33 JP2-3 
             )
         )
         (net 20
             (pins
-                JP2-5 U1-34 
-            )
-            (circuit 
+                U1-34 JP2-5 
             )
         )
         (net 21
             (pins
                 U1-35 JP2-7 
             )
-            (circuit 
-            )
         )
         (net LED3
             (pins
                 LD4-1 U1-36 
-            )
-            (circuit 
             )
         )
         (net LED2
             (pins
                 LD3-1 U1-87 
             )
-            (circuit 
-            )
         )
         (net LED1
             (pins
                 LD2-1 U1-38 
-            )
-            (circuit 
             )
         )
         (net LED0
             (pins
                 LD1-1 U1-86 
             )
-            (circuit 
-            )
         )
         (net 5V
             (pins
-                B1-12 U2-3 B1-13 C7-1 
-            )
-            (circuit 
+                U2-3 C7-1 B1-12 B1-13 
             )
         )
         (net 17
             (pins
                 U1-29 B1-21 
             )
-            (circuit 
-            )
         )
         (net 16
             (pins
                 U1-28 B1-20 
-            )
-            (circuit 
             )
         )
         (net 15
             (pins
                 U1-27 B1-19 
             )
-            (circuit 
-            )
         )
         (net 14
             (pins
                 U1-26 B1-18 
-            )
-            (circuit 
             )
         )
         (net 13
             (pins
                 U1-21 B1-17 
             )
-            (circuit 
-            )
         )
         (net TMS
             (pins
-                JP1-5 U1-22 
-            )
-            (circuit 
+                U1-22 JP1-5 
             )
         )
         (net TDO
             (pins
-                JP1-3 U1-25 
-            )
-            (circuit 
+                U1-25 JP1-3 
             )
         )
         (net TDI
             (pins
-                JP1-9 U1-23 
-            )
-            (circuit 
+                U1-23 JP1-9 
             )
         )
         (net CLK
             (pins
-                JP1-1 U1-24 
-            )
-            (circuit 
+                U1-24 JP1-1 
             )
         )
         (net 31
             (pins
                 U1-51 JP3-10 
             )
-            (circuit 
-            )
         )
         (net 32
             (pins
                 U1-52 JP3-8 
             )
-            (circuit 
-            )
         )
         (net 3.3V
             (pins
-                R26-1 C4-1 U2-2 JP2-1 C8-1 U1-59 C3-1 
-                C1-1 B1-1 C5-1 U1-63 U1-80 C2-1 JP3-1 U1-45 
-                U1-39 C6-1 U1-31 C9-1 U1-90 U1-94 C10-1 U1-13 
-                JP1-4 U1-9 B1-24 
-            )
-            (circuit 
+                U2-2 U1-94 U1-90 U1-80 U1-63 U1-59 U1-45 
+                U1-39 U1-31 U1-13 U1-9 C1-1 C2-1 C3-1 C4-1 
+                C5-1 C6-1 C9-1 C10-1 C8-1 R26-1 JP1-4 JP2-1 
+                B1-1 B1-24 JP3-1 
             )
         )
         (net 33
             (pins
                 U1-53 JP3-6 
             )
-            (circuit 
-            )
         )
         (net 34
             (pins
                 U1-54 JP3-4 
-            )
-            (circuit 
             )
         )
         (net 10
             (pins
                 U1-17 B1-14 
             )
-            (circuit 
-            )
         )
         (net 11
             (pins
                 U1-19 B1-15 
-            )
-            (circuit 
             )
         )
         (net 12
             (pins
                 U1-20 B1-16 
             )
-            (circuit 
-            )
         )
         (net 1
             (pins
-                B1-3 U1-2 
-            )
-            (circuit 
+                U1-2 B1-3 
             )
         )
         (net 2
             (pins
-                B1-4 U1-3 
-            )
-            (circuit 
+                U1-3 B1-4 
             )
         )
         (net 3
             (pins
-                B1-5 U1-4 
-            )
-            (circuit 
+                U1-4 B1-5 
             )
         )
         (net 4
             (pins
-                B1-6 U1-5 
-            )
-            (circuit 
+                U1-5 B1-6 
             )
         )
         (net 5
             (pins
-                B1-7 U1-6 
-            )
-            (circuit 
+                U1-6 B1-7 
             )
         )
         (net 6
             (pins
-                B1-8 U1-7 
-            )
-            (circuit 
+                U1-7 B1-8 
             )
         )
         (net 7
             (pins
-                B1-9 U1-8 
-            )
-            (circuit 
+                U1-8 B1-9 
             )
         )
         (net 8
             (pins
-                B1-10 U1-12 
-            )
-            (circuit 
+                U1-12 B1-10 
             )
         )
         (net 9
             (pins
-                B1-11 U1-15 
-            )
-            (circuit 
+                U1-15 B1-11 
             )
         )
         (net GND
             (pins
-                R4-2 R3-2 R27-1 C4-2 R1-2 R2-2 C8-2 
-                C1-2 B1-2 C5-2 U1-65 U1-79 C2-2 JP1-10 C3-2 
-                C7-2 U1-46 JP2-2 JP3-2 C6-2 U1-32 U1-37 U1-88 
-                C10-2 U1-93 U1-11 C9-2 U1-10 JP1-2 B1-23 
-            )
-            (circuit 
+                R1-2 R2-2 R3-2 R4-2 U1-93 U1-88 U1-79 
+                U1-65 U1-46 U1-37 U1-32 U1-11 U1-10 C1-2 C2-2 
+                C3-2 C4-2 C5-2 C6-2 C9-2 C10-2 C8-2 C7-2 
+                R27-1 JP1-10 JP1-2 JP2-2 B1-2 B1-23 JP3-2 
             )
         )
         (net NetR26_2
             (pins
-                R27-2 U2-1 R26-2 
-            )
-            (circuit 
+                U2-1 R26-2 R27-2 
             )
         )
     )
