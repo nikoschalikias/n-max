@@ -21,3 +21,4 @@ if exist deliverables.txt del deliverables.txt
 if exist requirements.txt del requirements.txt
 if exist purchase.txt del purchase.txt
 if exist integrity.txt del integrity.txt
+if exist flex.txt del flex.txt

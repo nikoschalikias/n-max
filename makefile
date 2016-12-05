@@ -4,12 +4,11 @@ NEWPRJ=TEST_PROJECT
 DVCS=HG
 
 GER1 :=.\gerber\$(PRJ).EXTREP
-GER_FILES =$(GER1) .\gerber\all_layers.pdf .\gerber\all_layers2.pdf
+GER_FILES =$(GER1) .\gerber\all_layers.pdf
 
 REVIEW_FILES =\
 .\gerber\all_layers.pdf \
-.\gerber\all_layers2.pdf \
-log.pdf \
+log.txt \
 3D.pdf \
 sch.pdf \
 cam.pdf
@@ -18,12 +17,17 @@ ASM_FILES =\
 .\asm\placeplan_mech15_smartpdf.PDF \
 .\asm\Pick_Place.csv \
 .\asm\Pick_Place.txt \
-.\asm\Pick_Place.xlsx \
 .\gerber\all_layers.pdf \
-.\gerber\all_layers2.pdf \
 .\3D.pdf \
-.\bom\PartsList.csv \
 .\bom\PartsList.xlsx
+
+FLEX_FILES =\
+.\deliverables\ODB.zip \
+.\bom\PurchaseList.xlsx \
+.\deliverables\review.zip \
+.\deliverables\asm.zip \
+.\gerber\gerberFiles.zip
+
 
 SCH := $(wildcard *.PcbDoc)
 PCB := $(wildcard *.PcbDoc)
@@ -32,12 +36,12 @@ ORD := $(wildcard .\ord\*)
 DELIVERABLES_FILES = $(GERBER_FILES) $(REVIEW_FILES) $(ASM_FILES) $(PURCHASE_FILES) $(SCH) $(PCB) \
 $(REQUIREMENTS_FILES) review.txt gerber.txt requirements.txt
 
-PURCHASE_FILES =.\bom\PurchaseList.pdf .\bom\PurchaseList.csv .\bom\PurchaseList.xlsx
+PURCHASE_FILES =.\bom\PurchaseList.xlsx
 
 REQUIREMENTS_FILES = .\requirements\requirements_text.txt
 
 
-all:  gerber.txt asm.txt purchase.txt  requirements.txt review.txt deliverables.txt integrity
+all:  gerber.txt asm.txt purchase.txt  requirements.txt review.txt deliverables.txt integrity flex.txt
 
 review.txt: $(REVIEW_FILES)
 	review.cmd
@@ -68,6 +72,9 @@ integrity:
 
 cleanDeep:
 	cleanDeep.cmd
+
+flex.txt: $(FLEX_FILES)
+	flex.cmd $(PRJ) $(REV)	
 
 
 

@@ -1,10 +1,13 @@
 if exist deliverables.txt del deliverables.txt
 if exist .\deliverables  del /Q .\deliverables\*.*
+md .\deliverables
 
 7z.exe a -tzip  cad.zip *.schdoc *.pcbdoc *.cam
 7z.exe a -tzip  ord.zip .\ord\*.*
+7z.exe a -tzip  ODB.zip .\ODB\*.*
 
 if exist review.zip          copy review.zip  .\deliverables
+
 copy .\gerber\gerberFiles*.zip   .\deliverables
 rem remove unstamped gerberFiles.zip
 if exist .\deliverables\gerberFiles.zip del .\deliverables\gerberFiles.zip 
@@ -15,6 +18,7 @@ if exist ord.zip             copy ord.zip   .\deliverables
 if exist purchase.zip        copy purchase.zip   .\deliverables
 if exist asm.zip             copy asm.zip   .\deliverables
 if exist requirements.zip    copy requirements.zip  .\deliverables
+if exist ODB.zip    copy ODB.zip  .\deliverables
 
 del /Q *.*zip
 

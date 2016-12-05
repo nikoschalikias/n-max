@@ -40,7 +40,7 @@ if exist .\gerber\%1.G1  copy .\gerber\%1.G2  .\gerber\renamed\MID_LAYER2.GBR
 if exist .\gerber\%1.GTP copy .\gerber\%1.GTP .\gerber\renamed\PASTE_TOP.GBR
 if exist .\gerber\%1.GBP copy .\gerber\%1.GBP  .\gerber\renamed\PASTE_BOTTOM.GBR
 if exist .\gerber\%1.GM3 copy .\gerber\%1.GM3 .\gerber\renamed\DIMENSIONS.GBR
-if exist .\gerber\%1.TXT copy .\gerber\%1.TXT .\gerber\renamed\DRILL.TXT
+                         copy .\gerber\%1*.TXT .\gerber\renamed\
 if exist .\gerber\DIMENSIONS.TXT copy .\gerber\DIMENSIONS.TXT .\gerber\renamed\DIMENSIONS.TXT
 
 if exist .\gerber\renamed\BOTTOM.GBR       7z.exe a -tzip gerberFiles.zip  .\gerber\renamed\BOTTOM.GBR
@@ -55,11 +55,14 @@ if exist .\gerber\renamed\MID_LAYER1.GBR   7z.exe a -tzip gerberFiles.zip  .\ger
 if exist .\gerber\renamed\MID_LAYER2.GBR   7z.exe a -tzip gerberFiles.zip  .\gerber\renamed\MID_LAYER2.GBR
 if exist .\gerber\renamed\PASTE_TOP.GBR 7z.exe a -tzip gerberFiles.zip  .\gerber\renamed\PASTE_TOP.GBR
 if exist .\gerber\renamed\PASTE_BOTTOM.GBR  7z.exe a -tzip gerberFiles.zip  .\gerber\renamed\PASTE_BOTTOM.GBR
-if exist .\gerber\renamed\DRILL.TXT        7z.exe a -tzip gerberFiles.zip  .\gerber\renamed\DRILL.TXT
+                                            7z.exe a -tzip gerberFiles.zip  .\gerber\renamed\%1*.TXT
 if exist .\gerber\renamed\DIMENSIONS.GBR   7z.exe a -tzip gerberFiles.zip  .\gerber\renamed\DIMENSIONS.GBR
 if exist .\gerber\renamed\DIMENSIONS.TXT   7z.exe a -tzip gerberFiles.zip  .\gerber\renamed\DIMENSIONS.TXT
 if exist .\gerber\all_layers.pdf             7z.exe a -tzip gerberFiles.zip  .\gerber\all_layers.pdf
 if exist .\gerber\all_layers2.pdf            7z.exe a -tzip gerberFiles.zip  .\gerber\all_layers2.pdf
+if exist .\gerber\README                     7z.exe a -tzip gerberFiles.zip  .\gerber\README
+if exist .\gerber\README.XLSX                7z.exe a -tzip gerberFiles.zip  .\gerber\README.XLSX
+if exist .\gerber\README.TXT                7z.exe a -tzip gerberFiles.zip  .\gerber\README.TXT
 
 
 if not exist .\gerber\seeed                md .\gerber\seeed
@@ -81,7 +84,7 @@ if exist .\gerber\seeed\%1.GBO 7z.exe a -tzip gerberFilesSeeed.zip .\gerber\seee
 if exist .\gerber\seeed\%1.GTS 7z.exe a -tzip gerberFilesSeeed.zip .\gerber\seeed\%1.GTS
 if exist .\gerber\seeed\%1.GBS 7z.exe a -tzip gerberFilesSeeed.zip .\gerber\seeed\%1.GBS
 if exist .\gerber\seeed\%1.GML 7z.exe a -tzip gerberFilesSeeed.zip .\gerber\seeed\%1.GML
-if exist .\gerber\seeed\%1.TXT 7z.exe a -tzip gerberFilesSeeed.zip .\gerber\seeed\%1.TXT
+if exist .\gerber\seeed\%1.TXT 7z.exe a -tzip gerberFilesSeeed.zip .\gerber\seeed\%1*.TXT
 
 
 

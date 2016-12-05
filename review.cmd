@@ -1,7 +1,10 @@
 if exist review.zip del review.zip
+
+if exist log.txt del del log.txt
+hg log -T compact > log.txt
+
 if exist .\gerber\all_layers.pdf         7z.exe a -tzip  review.zip .\gerber\all_layers.pdf
-if exist .\gerber\all_layers2.pdf        7z.exe a -tzip  review.zip .\gerber\all_layers2.pdf
-if exist log.pdf    7z.exe a -tzip  review.zip log.pdf
+if exist log.txt    7z.exe a -tzip  review.zip log.txt
 if exist 3D.pdf     7z.exe a -tzip  review.zip 3D.pdf
 if exist sch.pdf    7z.exe a -tzip  review.zip sch.pdf
 if exist cam.pdf    7z.exe a -tzip  review.zip cam.pdf

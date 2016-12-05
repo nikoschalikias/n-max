@@ -13,6 +13,15 @@ if exist make.exe              copy make.exe  ..\%1
 if exist 7z.exe                copy 7z.exe    ..\%1
 if exist makefile              copy makefile  ..\%1
 if exist PurchaseList.xlt*     copy PurchaseList.xlt*      ..\%1
+if exist template1.pcbdoc      copy template1.pcbdoc   ..\%1
+if exist template2.pcbdoc      copy template2.pcbdoc   ..\%1
+if exist template3.pcbdoc      copy template3.pcbdoc   ..\%1
+if exist template4.pcbdoc      copy template4.pcbdoc   ..\%1
+if exist template1.schdoc      copy template1.schdoc   ..\%1
+if exist template2.schdoc      copy template2.schdoc   ..\%1
+if exist template3.schdoc      copy template3.schdoc   ..\%1
+if exist template4.schdoc      copy template4.schdoc   ..\%1
+
 
 if exist ..\%1             copy *.OUTJOB    ..\%1
 if exist ..\%1             copy *.cmd       ..\%1

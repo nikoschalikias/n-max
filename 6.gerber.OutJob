@@ -63,7 +63,7 @@ Configuration2_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|Ge
 [PublishSettings]
 OutputFilePath2=
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for n-MAX
+OutputBasePath2=Project Outputs for n-bed
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -86,7 +86,7 @@ MarkPortsId2=1
 GenerateTOC=1
 ShowComponentParameters2=1
 GlobalBookmarks2=0
-OutputFilePath3=F:\orcad4\orcad\N-CPU1\gerber\
+OutputFilePath3=F:\orcad4\orcad\n-bed\gerber\
 ReleaseManaged3=0
 OutputBasePath3=gerber\
 OutputPathMedia3=
@@ -101,7 +101,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for n-MAX
+OutputBasePath4=Project Outputs for n-bed
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -140,7 +140,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=
 OpenOutputs2=1
-RelativeOutputPath3=F:\orcad4\orcad\N-CPU1\gerber\
+RelativeOutputPath3=F:\orcad4\orcad\n-bed\gerber\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
