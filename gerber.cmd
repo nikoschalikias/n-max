@@ -36,7 +36,7 @@ if exist .\gerber\%1.GBS copy .\gerber\%1.GBS .\gerber\renamed\MASK_BOTTOM.GBR
 if exist .\gerber\%1.GP1 copy .\gerber\%1.GP1 .\gerber\renamed\PLANE_LAYER1.GBR
 if exist .\gerber\%1.GP2 copy .\gerber\%1.GP2 .\gerber\renamed\PLANE_LAYER2.GBR
 if exist .\gerber\%1.G1  copy .\gerber\%1.G1  .\gerber\renamed\MID_LAYER1.GBR
-if exist .\gerber\%1.G1  copy .\gerber\%1.G2  .\gerber\renamed\MID_LAYER2.GBR
+if exist .\gerber\%1.G2  copy .\gerber\%1.G2  .\gerber\renamed\MID_LAYER2.GBR
 if exist .\gerber\%1.GTP copy .\gerber\%1.GTP .\gerber\renamed\PASTE_TOP.GBR
 if exist .\gerber\%1.GBP copy .\gerber\%1.GBP  .\gerber\renamed\PASTE_BOTTOM.GBR
 if exist .\gerber\%1.GM3 copy .\gerber\%1.GM3 .\gerber\renamed\DIMENSIONS.GBR
@@ -60,9 +60,6 @@ if exist .\gerber\renamed\DIMENSIONS.GBR   7z.exe a -tzip gerberFiles.zip  .\ger
 if exist .\gerber\renamed\DIMENSIONS.TXT   7z.exe a -tzip gerberFiles.zip  .\gerber\renamed\DIMENSIONS.TXT
 if exist .\gerber\all_layers.pdf             7z.exe a -tzip gerberFiles.zip  .\gerber\all_layers.pdf
 if exist .\gerber\all_layers2.pdf            7z.exe a -tzip gerberFiles.zip  .\gerber\all_layers2.pdf
-if exist .\gerber\README                     7z.exe a -tzip gerberFiles.zip  .\gerber\README
-if exist .\gerber\README.XLSX                7z.exe a -tzip gerberFiles.zip  .\gerber\README.XLSX
-if exist .\gerber\README.TXT                7z.exe a -tzip gerberFiles.zip  .\gerber\README.TXT
 
 
 if not exist .\gerber\seeed                md .\gerber\seeed
