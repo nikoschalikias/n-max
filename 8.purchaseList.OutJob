@@ -50,13 +50,13 @@ Configuration1_Item1=CaptionAsName
 Configuration1_Name2=Filter
 Configuration1_Item2=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
 Configuration1_Name3=General
-Configuration1_Item3=OpenExported=True|AddToProject=False|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=PurchaseList.xltx|BatchMode=5|FormWidth=1378|FormHeight=649|SupplierProdQty=10|SupplierAutoQty=True|SupplierUseCachedPricing=True|SupplierCurrency=EUR
+Configuration1_Item3=OpenExported=True|AddToProject=False|ForceFit=True|NotFitted=False|Database=False|DatabasePriority=False|IncludePCBData=False|IncludeVaultData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=PurchaseList.xltx|BatchMode=5|FormWidth=1378|FormHeight=867|SupplierProdQty=10|SupplierAutoQty=True|SupplierUseCachedPricing=True|SupplierCurrency=EUR
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=Manufacturer 1=True|Comment=True|Footprint=True
 Configuration1_Name5=SortOrder
 Configuration1_Item5=Supplier 1=Down
 Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Designator=93|Comment=156|Description=196|Footprint=146|S.Description=100|Manufacturer 1=99|Manufacturer Part Number 1=99|Supplier 1=69|Supplier Currency 1=52|Supplier Stock 1=65|Supplier Part Number 1=147|Quantity=49|Supplier Order Qty 1=43|Supplier Unit Price 1=76|Supplier Subtotal 1=131|Divider=100|Manufacturer=100
+Configuration1_Item6=Designator=93|Comment=156|Description=196|Footprint=146|S.Description=100|Manufacturer 1=99|Manufacturer Part Number 1=99|Supplier 1=69|Supplier Currency 1=52|Supplier Stock 1=65|Supplier Part Number 1=147|Quantity=49|Supplier Order Qty 1=43|Supplier Unit Price 1=76|Supplier Subtotal 1=131|Divider=100|Manufacturer=100|S.Footprint=100
 
 [PublishSettings]
 OutputFilePath2=bom\purchase.PDF

@@ -73,7 +73,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YYJLBTDH
 
 [Document3]
-DocumentPath=..\0_PROTEL_LIB\MOD1.PcbLib
+DocumentPath=..\..\0_PROTEL_LIB\MOD1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -90,7 +90,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MUGPYWIE
 
 [Document4]
-DocumentPath=..\0_PROTEL_LIB\MOD2.PcbLib
+DocumentPath=..\..\0_PROTEL_LIB\MOD2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -107,7 +107,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KVGALACQ
 
 [Document5]
-DocumentPath=..\0_PROTEL_LIB\NX1.SchLib
+DocumentPath=..\..\0_PROTEL_LIB\NX1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -124,7 +124,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TKBPSRMJ
 
 [Document6]
-DocumentPath=..\0_PROTEL_LIB\NX2.SchLib
+DocumentPath=..\..\0_PROTEL_LIB\NX2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
