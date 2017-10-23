@@ -242,23 +242,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document13]
-DocumentPath=CAMtastic1.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document14]
 DocumentPath=..\nBlocksAltiumLib\MOD1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document14]
 DocumentPath=..\nBlocksAltiumLib\MOD2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document15]
 DocumentPath=..\nBlocksAltiumLib\NX1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document16]
 DocumentPath=..\nBlocksAltiumLib\NX2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -325,126 +308,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[GeneratedDocument1]
-DocumentPath=ODB\odb\steps\pcb\layers\comp_+_bot\components
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=ODB\odb\steps\pcb\layers\comp_+_top\components
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=ODB\odb\steps\pcb\eda\data
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for n-MAX\Design Rule Check - n-MAX.html
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=ODB\odb\steps\pcb\layers\bottom\features
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=ODB\odb\steps\pcb\layers\bottomoverlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=ODB\odb\steps\pcb\layers\bottompaste\features
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=ODB\odb\steps\pcb\layers\bottomsolder\features
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=ODB\odb\steps\pcb\layers\comp_+_bot\features
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=ODB\odb\steps\pcb\layers\comp_+_top\features
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=ODB\odb\steps\pcb\layers\drill\features
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=ODB\odb\steps\pcb\layers\keepout\features
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=ODB\odb\steps\pcb\layers\mechanical1\features
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=ODB\odb\steps\pcb\layers\mechanical2\features
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=ODB\odb\steps\pcb\layers\mechanical3\features
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=ODB\odb\steps\pcb\layers\mechanical13\features
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=ODB\odb\steps\pcb\layers\mechanical15\features
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=ODB\odb\steps\pcb\layers\mechanical16\features
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=ODB\odb\steps\pcb\layers\plane1\features
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=ODB\odb\steps\pcb\layers\plane2\features
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=ODB\odb\steps\pcb\layers\top\features
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=ODB\odb\steps\pcb\layers\topoverlay\features
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=ODB\odb\steps\pcb\layers\toppaste\features
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=ODB\odb\steps\pcb\layers\topsolder\features
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=ODB\odb\matrix\matrix
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=ODB\n-MAX.REP
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=ODB\odb\steps\pcb\netlists\cadnet\netlist
-DItemRevisionGUID=
-
-[GeneratedDocument28]
-DocumentPath=ODB\odb\steps\pcb\profile
-DItemRevisionGUID=
-
-[GeneratedDocument29]
-DocumentPath=ODB\odb\steps\pcb\stephdr
-DItemRevisionGUID=
-
-[GeneratedDocument30]
-DocumentPath=ODB\odb\steps\pcb\layers\drill\tools
-DItemRevisionGUID=
 
 [Parameter1]
 Name=OrderQty
@@ -469,7 +332,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C451 PS(P)
+TargetPrinter=HP LaserJet 2300 PCL6 Class Driver
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -580,7 +443,7 @@ OutputDefault21=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C451 PS(P)
+TargetPrinter=HP LaserJet 2300 PCL6 Class Driver
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -669,7 +532,7 @@ PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C451 PS(P)
+TargetPrinter=HP LaserJet 2300 PCL6 Class Driver
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -691,7 +554,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C451 PS(P)
+TargetPrinter=HP LaserJet 2300 PCL6 Class Driver
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -763,7 +626,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C451 PS(P)
+TargetPrinter=HP LaserJet 2300 PCL6 Class Driver
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -800,7 +663,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C451 PS(P)
+TargetPrinter=HP LaserJet 2300 PCL6 Class Driver
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -980,7 +843,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C451 PS(P)
+TargetPrinter=HP LaserJet 2300 PCL6 Class Driver
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Configuration compliance
 OutputName1=Environment configuration compliance check
@@ -1019,7 +882,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=KONICA MINOLTA C451 PS(P)
+TargetPrinter=HP LaserJet 2300 PCL6 Class Driver
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1070,7 +933,7 @@ OutputDefault9=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=\\prt-btc-01\NIM_R267_Admin_Office
+TargetPrinter=HP LaserJet 2300 PCL6 Class Driver
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
